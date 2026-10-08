@@ -14,16 +14,14 @@
 
 ## 做过的产品，留下的代码
 
-<table>
-  <tr>
-    <td width="50%"><a href="https://github.com/Timcai06/EduCanvas"><img src="assets/educanvas.svg" width="100%" alt="EduCanvas：参与个人 Agent 平台，开发桌面助手、语音交互、文件预览与工程质量能力。"></a></td>
-    <td width="50%"><a href="https://github.com/sky-k111/ai-name"><img src="assets/ai-name.svg" width="100%" alt="AI 智能取名：基于 DeepSeek、Vue 与 FastAPI 的取名与名字分析应用。"></a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/sky-k111/translation"><img src="assets/translation.svg" width="100%" alt="Translation：基于上游开源项目的 Chrome 划词翻译、词汇管理与间隔复习工具。"></a></td>
-    <td><a href="https://github.com/sky-k111/gh-trending-digest"><img src="assets/trending.svg" width="100%" alt="Trending Digest：Python 与 GitHub Actions 驱动的 AI 开源推荐与邮件推送工具。"></a></td>
-  </tr>
-</table>
+<p>
+  <a href="https://github.com/Timcai06/EduCanvas"><img src="assets/educanvas.svg" width="49%" alt="EduCanvas：参与个人 Agent 平台，开发桌面助手、语音交互、文件预览与工程质量能力。"></a>
+  <a href="https://github.com/sky-k111/ai-name"><img src="assets/ai-name.svg" width="49%" alt="AI 智能取名：基于 DeepSeek、Vue 与 FastAPI 的取名与名字分析应用。"></a>
+</p>
+<p>
+  <a href="https://github.com/sky-k111/translation"><img src="assets/translation.svg" width="49%" alt="Translation：基于上游开源项目的 Chrome 划词翻译、词汇管理与间隔复习工具。"></a>
+  <a href="https://github.com/sky-k111/gh-trending-digest"><img src="assets/trending.svg" width="49%" alt="Trending Digest：Python 与 GitHub Actions 驱动的 AI 开源推荐与邮件推送工具。"></a>
+</p>
 
 **EduCanvas 中的实际贡献：** [桌面助手与语音链路](https://github.com/Timcai06/EduCanvas/pull/369) / [文件预览](https://github.com/Timcai06/EduCanvas/pull/219) / [Agent 成本与时间预算](https://github.com/Timcai06/EduCanvas/pull/291)。
 
