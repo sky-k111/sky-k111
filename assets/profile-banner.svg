@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title description">
+  <title id="title">sky-k111 — Full-stack AI developer</title>
+  <desc id="description">From ideas to working products. A connected diagram of AI, interface, and delivery.</desc>
+  <rect width="1200" height="340" rx="20" fill="#E9F2FF"/>
+  <path d="M0 284H1200" stroke="#CADDFC"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="58" y="70" font-size="22" fill="#345D93">Full-stack AI developer</text>
+    <text x="54" y="157" font-size="78" font-weight="700" letter-spacing="-3" fill="#123968">sky-k111</text>
+    <text x="58" y="215" font-size="27" fill="#345D93">From ideas to working products.</text>
+    <text x="58" y="319" font-size="18" fill="#345D93">Web applications / Desktop assistants / Automation</text>
+  </g>
+  <g fill="none" stroke="#6B99D6" stroke-width="2">
+    <path d="M742 102H785Q808 102 808 125V145"/>
+    <path d="M910 163H951Q974 163 974 186V203"/>
+    <path d="M1000 240H1078Q1100 240 1100 218V103Q1100 80 1078 80H1022" stroke-dasharray="6 7"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="650" y="67" width="118" height="70" rx="12" fill="#FFFFFF" stroke="#B5D1F7"/>
+    <circle cx="676" cy="102" r="7" fill="#417DC8"/>
+    <text x="695" y="109" font-size="21" font-weight="600" fill="#123968">Idea</text>
+    <rect x="768" y="128" width="142" height="70" rx="12" fill="#316AB2"/>
+    <path d="M790 155L781 163L790 171M801 155L810 163L801 171" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="825" y="171" font-size="21" font-weight="600" fill="#FFFFFF">Build</text>
+    <rect x="942" y="205" width="178" height="70" rx="12" fill="#FFFFFF" stroke="#B5D1F7"/>
+    <path d="M963 241L970 248L983 232" fill="none" stroke="#417DC8" stroke-width="3"/>
+    <text x="995" y="248" font-size="21" font-weight="600" fill="#123968">Deliver</text>
+    <text x="1019" y="105" font-size="17" fill="#345D93">Iterate</text>
+  </g>
+</svg>
