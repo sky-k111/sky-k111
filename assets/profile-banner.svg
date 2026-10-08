@@ -1,29 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title description">
-  <title id="title">sky-k111 — Full-stack AI developer</title>
-  <desc id="description">From ideas to working products. A connected diagram of AI, interface, and delivery.</desc>
-  <rect width="1200" height="340" rx="20" fill="#E9F2FF"/>
-  <path d="M0 284H1200" stroke="#CADDFC"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+<title id="title">Ethan Chen / 陈奕恺 — AI &amp; full-stack developer</title>
+<desc id="desc">A luminous orbital core and connected circuits on a deep blue background. Building AI applications, web products, and desktop assistants.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071127"/><stop offset="1" stop-color="#111E40"/></linearGradient>
+  <linearGradient id="orbit"><stop stop-color="#5CF7E2"/><stop offset=".5" stop-color="#92C5FF"/><stop offset="1" stop-color="#A39BFF"/></linearGradient>
+  <linearGradient id="type" x2=".8" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#A8C7EB"/></linearGradient>
+  <linearGradient id="face" x2="1" y2="1"><stop stop-color="#5CF7E2" stop-opacity=".32"/><stop offset="1" stop-color="#A39BFF" stop-opacity=".06"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#465ECC" stop-opacity=".38"/><stop offset="1" stop-color="#465ECC" stop-opacity="0"/></radialGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+  <clipPath id="frame"><rect width="1280" height="520" rx="24"/></clipPath>
+</defs>
+<style>
+  .orbit-flow{stroke-dasharray:90 850;animation:flow 18s linear infinite}
+  .signal{stroke-dasharray:6 18;animation:flow 12s linear infinite}
+  @keyframes flow{to{stroke-dashoffset:-940}}
+  @media (prefers-reduced-motion:reduce){.orbit-flow,.signal{animation:none}}
+</style>
+<g clip-path="url(#frame)">
+  <rect width="1280" height="520" fill="url(#bg)"/>
+  <ellipse cx="995" cy="252" rx="360" ry="340" fill="url(#halo)"/>
+  <g fill="none" stroke="#42648D" stroke-opacity=".17">
+    <path d="M700 520L915 354M812 520L945 354M930 520L975 354M1050 520L1005 354M1170 520L1035 354M1280 505L1065 354"/>
+    <path d="M765 391H1195M725 428H1235M680 472H1280M635 518H1280"/>
+  </g>
+  <g fill="#9DC7F8">
+    <circle cx="731" cy="74" r="1.7"/><circle cx="1208" cy="184" r="2"/>
+    <circle cx="813" cy="352" r="1.4"/><circle cx="1070" cy="59" r="2"/>
+    <circle cx="1175" cy="435" r="1.5"/><circle cx="681" cy="289" r="1"/>
+    <circle cx="623" cy="59" r="1.1"/><circle cx="902" cy="449" r="1.2"/>
+  </g>
+  <g fill="none" stroke="#5CF7E2" stroke-opacity=".24">
+    <path d="M660 131H712L741 160H798"/><path d="M1115 338H1172L1200 366H1280"/>
+    <path d="M784 380H738L701 417H649"/>
+    <circle cx="660" cy="131" r="4"/><circle cx="784" cy="380" r="4"/>
+  </g>
+  <g transform="translate(976 245)" fill="none">
+    <circle r="187" stroke="#83B6E8" stroke-opacity=".15"/>
+    <circle r="171" stroke="#83B6E8" stroke-opacity=".12" stroke-dasharray="2 12"/>
+    <g stroke="url(#orbit)" stroke-opacity=".22">
+      <ellipse rx="187" ry="70" transform="rotate(-28)"/>
+      <ellipse rx="187" ry="70" transform="rotate(35)"/>
+      <ellipse rx="187" ry="70" transform="rotate(94)"/>
+      <ellipse rx="92" ry="182" transform="rotate(-28)"/>
+      <ellipse rx="92" ry="182" transform="rotate(35)"/>
+    </g>
+    <g stroke="url(#orbit)" stroke-width="2">
+      <ellipse rx="187" ry="70" transform="rotate(-28)"/>
+      <ellipse rx="187" ry="70" transform="rotate(94)" stroke-opacity=".7"/>
+    </g>
+    <g stroke="#5CF7E2" stroke-width="7" filter="url(#glow)" opacity=".7">
+      <ellipse class="orbit-flow" rx="187" ry="70" transform="rotate(-28)"/>
+    </g>
+    <ellipse class="orbit-flow" rx="187" ry="70" transform="rotate(-28)" stroke="#B8FFF4" stroke-width="3"/>
+    <polygon points="0,-84 72,-42 72,42 0,84 -72,42 -72,-42" fill="url(#face)" stroke="url(#orbit)" stroke-width="2"/>
+    <path d="M0 0L0 84M0 0L72 -42M0 0L-72 -42M0 -84V0M-72 42L0 0L72 42" stroke="#A3CBEF" stroke-opacity=".45"/>
+    <path d="M0 -84L72 -42L0 0L-72 -42Z" fill="#A2FFF2" fill-opacity=".07"/>
+    <circle r="7" fill="#BBFFF4"/>
+    <circle r="17" fill="#5CF7E2" opacity=".25" filter="url(#glow)"/>
+    <circle cx="-165" cy="92" r="5" fill="#5CF7E2"/>
+    <circle cx="154" cy="106" r="4" fill="#A39BFF"/>
+  </g>
   <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="58" y="70" font-size="22" fill="#345D93">Full-stack AI developer</text>
-    <text x="54" y="157" font-size="78" font-weight="700" letter-spacing="-3" fill="#123968">sky-k111</text>
-    <text x="58" y="215" font-size="27" fill="#345D93">From ideas to working products.</text>
-    <text x="58" y="319" font-size="18" fill="#345D93">Web applications / Desktop assistants / Automation</text>
+    <text x="66" y="79" fill="#9DAFD2" font-size="24">AI &amp; full-stack developer</text>
+    <text x="58" y="218" fill="url(#type)" font-size="130" font-weight="750" letter-spacing="-5">Ethan</text>
+    <text x="58" y="336" fill="url(#type)" font-size="130" font-weight="750" letter-spacing="-5">Chen.</text>
+    <text x="68" y="389" fill="#B4C7E5" font-size="30" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">陈奕恺</text>
+    <text x="68" y="443" fill="#E1EBFC" font-size="25">Build ideas into products.</text>
+    <text x="806" y="477" fill="#9DAFD2" font-size="18">AI applications / Web / Desktop</text>
   </g>
-  <g fill="none" stroke="#6B99D6" stroke-width="2">
-    <path d="M742 102H785Q808 102 808 125V145"/>
-    <path d="M910 163H951Q974 163 974 186V203"/>
-    <path d="M1000 240H1078Q1100 240 1100 218V103Q1100 80 1078 80H1022" stroke-dasharray="6 7"/>
-  </g>
-  <g font-family="Segoe UI, Arial, sans-serif">
-    <rect x="650" y="67" width="118" height="70" rx="12" fill="#FFFFFF" stroke="#B5D1F7"/>
-    <circle cx="676" cy="102" r="7" fill="#417DC8"/>
-    <text x="695" y="109" font-size="21" font-weight="600" fill="#123968">Idea</text>
-    <rect x="768" y="128" width="142" height="70" rx="12" fill="#316AB2"/>
-    <path d="M790 155L781 163L790 171M801 155L810 163L801 171" fill="none" stroke="#FFFFFF" stroke-width="2"/>
-    <text x="825" y="171" font-size="21" font-weight="600" fill="#FFFFFF">Build</text>
-    <rect x="942" y="205" width="178" height="70" rx="12" fill="#FFFFFF" stroke="#B5D1F7"/>
-    <path d="M963 241L970 248L983 232" fill="none" stroke="#417DC8" stroke-width="3"/>
-    <text x="995" y="248" font-size="21" font-weight="600" fill="#123968">Deliver</text>
-    <text x="1019" y="105" font-size="17" fill="#345D93">Iterate</text>
-  </g>
+  <path d="M66 475H358" stroke="#5CF7E2" stroke-opacity=".26"/>
+  <path class="signal" d="M66 475H358" stroke="#5CF7E2" stroke-width="2"/>
+</g>
 </svg>

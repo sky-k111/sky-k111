@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title">
+<title id="title">AI Naming — 把大模型接入完整业务体验，智能取名 / 名字分析 / 账号体系</title>
+<defs><radialGradient id="light" cx="1" cy="0" r="1"><stop stop-color="#A39BFF" stop-opacity=".12"/><stop offset="1" stop-color="#A39BFF" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="598" height="298" rx="18" fill="#0C1831" stroke="#243451"/>
+<rect x="2" y="2" width="596" height="296" rx="17" fill="url(#light)"/>
+<g font-family="Segoe UI, Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="34" y="53" fill="#A39BFF" font-size="21">AI 智能取名</text>
+<text x="32" y="108" fill="#EDF5FF" font-size="38" font-weight="700" letter-spacing="-1">AI Naming</text>
+<text x="34" y="161" fill="#B0BFDB" font-size="23">把大模型接入完整业务体验</text>
+<text x="34" y="199" fill="#B0BFDB" font-size="23">智能取名 / 名字分析 / 账号体系</text>
+<path d="M34 228H566" stroke="#263B59"/>
+<text x="34" y="267" fill="#8DA5C8" font-size="21">Vue   FastAPI   DeepSeek</text>
+</g>
+<g fill="none" stroke="#A39BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"><path d="M490 36L497 55L518 62L497 69L490 91L483 69L462 62L483 55Z M526 36V51M519 43H533"/></g>
+</svg>

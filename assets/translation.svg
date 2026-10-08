@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title">
+<title id="title">Translation — 从网页划词到词汇复习，翻译 / 单词管理 / 学习模式</title>
+<defs><radialGradient id="light" cx="1" cy="0" r="1"><stop stop-color="#86BCFF" stop-opacity=".12"/><stop offset="1" stop-color="#86BCFF" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="598" height="298" rx="18" fill="#0C1831" stroke="#243451"/>
+<rect x="2" y="2" width="596" height="296" rx="17" fill="url(#light)"/>
+<g font-family="Segoe UI, Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="34" y="53" fill="#86BCFF" font-size="21">浏览器工具</text>
+<text x="32" y="108" fill="#EDF5FF" font-size="38" font-weight="700" letter-spacing="-1">Translation</text>
+<text x="34" y="161" fill="#B0BFDB" font-size="23">从网页划词到词汇复习</text>
+<text x="34" y="199" fill="#B0BFDB" font-size="23">翻译 / 单词管理 / 学习模式</text>
+<path d="M34 228H566" stroke="#263B59"/>
+<text x="34" y="267" fill="#8DA5C8" font-size="21">Chrome Extension   JavaScript</text>
+</g>
+<g fill="none" stroke="#86BCFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"><rect x="458" y="38" width="43" height="44" rx="8"/><rect x="479" y="56" width="43" height="44" rx="8"/><path d="M470 50H491M480 45V70M491 52L470 70M490 88L500 69L510 88M494 81H506"/></g>
+</svg>

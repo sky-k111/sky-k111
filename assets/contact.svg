@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-labelledby="title">
+<title id="title">联系 Ethan Chen / 陈奕恺 — 1503794397@qq.com</title>
+<defs><linearGradient id="bg"><stop stop-color="#111E40"/><stop offset="1" stop-color="#071127"/></linearGradient></defs>
+<rect x="1" y="1" width="1198" height="208" rx="20" fill="url(#bg)" stroke="#294366"/>
+<path d="M1100 0L900 210M1190 0L990 210M1200 70L1080 210" stroke="#5CF7E2" stroke-opacity=".12"/>
+<g font-family="Segoe UI, Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="44" y="58" fill="#9DB3D6" font-size="24">Have a project in mind?</text>
+<text x="42" y="125" fill="#EDF5FF" font-size="48" font-weight="650">1503794397@qq.com</text>
+<text x="44" y="173" fill="#5CF7E2" font-size="24">开发需求 / 项目合作 / 产品想法</text>
+</g>
+<g transform="translate(1015 68)" fill="none" stroke="#5CF7E2" stroke-width="3">
+<rect width="92" height="66" rx="12"/><path d="M5 8L46 35L87 8"/>
+</g>
+</svg>

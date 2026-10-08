@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title">
+<title id="title">Trending Digest — 发现开源项目，自动送达邮箱，AI 筛选 / 定时摘要 / 邮件推送</title>
+<defs><radialGradient id="light" cx="1" cy="0" r="1"><stop stop-color="#6FE3F0" stop-opacity=".12"/><stop offset="1" stop-color="#6FE3F0" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="598" height="298" rx="18" fill="#0C1831" stroke="#243451"/>
+<rect x="2" y="2" width="596" height="296" rx="17" fill="url(#light)"/>
+<g font-family="Segoe UI, Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="34" y="53" fill="#6FE3F0" font-size="21">自动化实践</text>
+<text x="32" y="108" fill="#EDF5FF" font-size="38" font-weight="700" letter-spacing="-1">Trending Digest</text>
+<text x="34" y="161" fill="#B0BFDB" font-size="23">发现开源项目，自动送达邮箱</text>
+<text x="34" y="199" fill="#B0BFDB" font-size="23">AI 筛选 / 定时摘要 / 邮件推送</text>
+<path d="M34 228H566" stroke="#263B59"/>
+<text x="34" y="267" fill="#8DA5C8" font-size="21">Python   GitHub Actions   LLM</text>
+</g>
+<g fill="none" stroke="#6FE3F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"><path d="M457 71H470L478 48L490 90L502 36L514 71H532"/></g>
+</svg>
