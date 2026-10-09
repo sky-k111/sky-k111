@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title">
+<title id="title">Personal Homepage — 个人主页与网页视觉交互，页面设计 / 内容展示 / 绘图页面</title>
+<defs><radialGradient id="light" cx="1" cy="0" r="1"><stop stop-color="#83E7FF" stop-opacity=".12"/><stop offset="1" stop-color="#83E7FF" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="598" height="298" rx="18" fill="#0C1831" stroke="#243451"/>
+<rect x="2" y="2" width="596" height="296" rx="17" fill="url(#light)"/>
+<g font-family="Segoe UI, Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="34" y="53" fill="#83E7FF" font-size="21">前端视觉实践</text>
+<text x="32" y="108" fill="#EDF5FF" font-size="38" font-weight="700" letter-spacing="-1">Personal Homepage</text>
+<text x="34" y="161" fill="#B0BFDB" font-size="23">个人主页与网页视觉交互</text>
+<text x="34" y="199" fill="#B0BFDB" font-size="23">滚动动效 / 内容展示 / 绘图页面</text>
+<path d="M34 228H566" stroke="#263B59"/>
+<text x="34" y="267" fill="#8DA5C8" font-size="21">HTML   CSS   JavaScript   GSAP</text>
+</g>
+<g fill="none" stroke="#83E7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"><path d="M458 62L496 34L534 62M466 57V96H526V57M486 96V76H506V96"/><path d="M480 63H481M512 63H513"/></g>
+</svg>

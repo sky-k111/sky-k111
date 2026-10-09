@@ -1,4 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1248" viewBox="0 0 600 1248" role="img" aria-labelledby="board-title"><title id="board-title">Ethan Chen — Selected projects</title><g transform="translate(0 0) scale(1)">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1880" viewBox="0 0 600 1880" role="img" aria-labelledby="board-title"><title id="board-title">Ethan Chen — Selected projects</title><g transform="translate(0 0) scale(1)">
+<title id="portfolio-title">Portfolio V5 — 个人品牌与作品展示，开场动画 / 页面转场 / 联系交互</title>
+<defs><radialGradient id="portfolio-light" cx="1" cy="0" r="1"><stop stop-color="#BBA8FF" stop-opacity=".12"/><stop offset="1" stop-color="#BBA8FF" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="598" height="298" rx="18" fill="#0C1831" stroke="#243451"/>
+<rect x="2" y="2" width="596" height="296" rx="17" fill="url(#portfolio-light)"/>
+<g font-family="Segoe UI, Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="34" y="53" fill="#BBA8FF" font-size="21">前端作品集</text>
+<text x="32" y="108" fill="#EDF5FF" font-size="38" font-weight="700" letter-spacing="-1">Portfolio V5</text>
+<text x="34" y="161" fill="#B0BFDB" font-size="23">个人品牌与作品展示</text>
+<text x="34" y="199" fill="#B0BFDB" font-size="23">开场动画 / 页面转场 / 联系交互</text>
+<path d="M34 228H566" stroke="#263B59"/>
+<text x="34" y="267" fill="#8DA5C8" font-size="21">React   TypeScript   Three.js   GSAP</text>
+</g>
+<g fill="none" stroke="#BBA8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"><rect x="458" y="36" width="78" height="60" rx="8"/><path d="M458 51H536M471 43H472M480 43H481M489 43H490M474 65L468 73L474 81M520 65L526 73L520 81M503 62L492 85"/></g>
+</g><g transform="translate(0 316) scale(1)">
+<title id="homepage-title">Personal Homepage — 个人主页与网页视觉交互，页面设计 / 内容展示 / 绘图页面</title>
+<defs><radialGradient id="homepage-light" cx="1" cy="0" r="1"><stop stop-color="#83E7FF" stop-opacity=".12"/><stop offset="1" stop-color="#83E7FF" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="598" height="298" rx="18" fill="#0C1831" stroke="#243451"/>
+<rect x="2" y="2" width="596" height="296" rx="17" fill="url(#homepage-light)"/>
+<g font-family="Segoe UI, Arial, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="34" y="53" fill="#83E7FF" font-size="21">前端视觉实践</text>
+<text x="32" y="108" fill="#EDF5FF" font-size="38" font-weight="700" letter-spacing="-1">Personal Homepage</text>
+<text x="34" y="161" fill="#B0BFDB" font-size="23">个人主页与网页视觉交互</text>
+<text x="34" y="199" fill="#B0BFDB" font-size="23">滚动动效 / 内容展示 / 绘图页面</text>
+<path d="M34 228H566" stroke="#263B59"/>
+<text x="34" y="267" fill="#8DA5C8" font-size="21">HTML   CSS   JavaScript   GSAP</text>
+</g>
+<g fill="none" stroke="#83E7FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"><path d="M458 62L496 34L534 62M466 57V96H526V57M486 96V76H506V96"/><path d="M480 63H481M512 63H513"/></g>
+</g><g transform="translate(0 632) scale(1)">
 <title id="educanvas-title">EduCanvas — 个人 Agent 平台与桌面助手，语音交互 / 文件预览 / 工程质量</title>
 <defs><radialGradient id="educanvas-light" cx="1" cy="0" r="1"><stop stop-color="#5CF7E2" stop-opacity=".12"/><stop offset="1" stop-color="#5CF7E2" stop-opacity="0"/></radialGradient></defs>
 <rect x="1" y="1" width="598" height="298" rx="18" fill="#0C1831" stroke="#243451"/>
@@ -12,7 +40,7 @@
 <text x="34" y="267" fill="#8DA5C8" font-size="21">TypeScript   Electron   Agent</text>
 </g>
 <g fill="none" stroke="#5CF7E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"><path d="M492 35L520 51V83L492 99L464 83V51Z M492 67L520 51M492 67L464 51M492 67V99"/></g>
-</g><g transform="translate(0 316) scale(1)">
+</g><g transform="translate(0 948) scale(1)">
 <title id="ai-name-title">AI Naming — 把大模型接入完整业务体验，智能取名 / 名字分析 / 账号体系</title>
 <defs><radialGradient id="ai-name-light" cx="1" cy="0" r="1"><stop stop-color="#A39BFF" stop-opacity=".12"/><stop offset="1" stop-color="#A39BFF" stop-opacity="0"/></radialGradient></defs>
 <rect x="1" y="1" width="598" height="298" rx="18" fill="#0C1831" stroke="#243451"/>
@@ -26,7 +54,7 @@
 <text x="34" y="267" fill="#8DA5C8" font-size="21">Vue   FastAPI   DeepSeek</text>
 </g>
 <g fill="none" stroke="#A39BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"><path d="M490 36L497 55L518 62L497 69L490 91L483 69L462 62L483 55Z M526 36V51M519 43H533"/></g>
-</g><g transform="translate(0 632) scale(1)">
+</g><g transform="translate(0 1264) scale(1)">
 <title id="translation-title">Translation — 从网页划词到词汇复习，翻译 / 单词管理 / 学习模式</title>
 <defs><radialGradient id="translation-light" cx="1" cy="0" r="1"><stop stop-color="#86BCFF" stop-opacity=".12"/><stop offset="1" stop-color="#86BCFF" stop-opacity="0"/></radialGradient></defs>
 <rect x="1" y="1" width="598" height="298" rx="18" fill="#0C1831" stroke="#243451"/>
@@ -40,7 +68,7 @@
 <text x="34" y="267" fill="#8DA5C8" font-size="21">Chrome Extension   JavaScript</text>
 </g>
 <g fill="none" stroke="#86BCFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".8"><rect x="458" y="38" width="43" height="44" rx="8"/><rect x="479" y="56" width="43" height="44" rx="8"/><path d="M470 50H491M480 45V70M491 52L470 70M490 88L500 69L510 88M494 81H506"/></g>
-</g><g transform="translate(0 948) scale(1)">
+</g><g transform="translate(0 1580) scale(1)">
 <title id="trending-title">Trending Digest — 发现开源项目，自动送达邮箱，AI 筛选 / 定时摘要 / 邮件推送</title>
 <defs><radialGradient id="trending-light" cx="1" cy="0" r="1"><stop stop-color="#6FE3F0" stop-opacity=".12"/><stop offset="1" stop-color="#6FE3F0" stop-opacity="0"/></radialGradient></defs>
 <rect x="1" y="1" width="598" height="298" rx="18" fill="#0C1831" stroke="#243451"/>
