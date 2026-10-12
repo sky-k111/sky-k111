@@ -18,7 +18,7 @@
   <a href="#一起做点有用的东西-lets-build"><kbd>联系合作</kbd></a>
 </p>
 
-<h2 id="about">把灵感做成可交互的产品 <sub>Ideas into products</sub></h2>
+<h2>把灵感做成可交互的产品 <sub>Ideas into products</sub></h2>
 
 你好，我是 **Ethan Chen / 陈奕恺**，在杭州学习与开发。我专注于 **AI 应用、全栈产品和前端交互**，喜欢沿着一个想法，从需求拆解、界面与数据，到后端、模型接入和部署，做出可以使用的作品。
 
@@ -31,7 +31,7 @@
 > **近期关注 / Now**<br>
 > AI Coding 工作流、Agent 产品、前端交互，以及把完整功能交付给真实用户。
 
-<h2 id="work">项目工作台 <sub>Selected work</sub></h2>
+<h2>项目工作台 <sub>Selected work</sub></h2>
 
 <sub>下方插画展示项目功能与交互结构。</sub>
 
@@ -110,7 +110,7 @@
 </tr>
 </table>
 
-<h2 id="tools">常用技术 <sub>Toolbox</sub></h2>
+<h2>常用技术 <sub>Toolbox</sub></h2>
 
 | 前端与交互 | 后端与数据 | AI 与交付 |
 | --- | --- | --- |
@@ -126,7 +126,7 @@
 
 </details>
 
-<h2 id="contact">一起做点有用的东西 <sub>Let's build</sub></h2>
+<h2>一起做点有用的东西 <sub>Let's build</sub></h2>
 
 欢迎带着 **AI 应用、网站与业务系统、桌面助手、浏览器扩展或自动化工具** 的开发需求来聊，也可以讨论已有项目的功能完善与部署。
 
