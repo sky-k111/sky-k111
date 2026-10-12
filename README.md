@@ -12,10 +12,10 @@
 </p>
 
 <p align="center">
-  <a href="#about"><kbd>关于我</kbd></a> &nbsp;
-  <a href="#work"><kbd>项目工作台</kbd></a> &nbsp;
-  <a href="#tools"><kbd>常用技术</kbd></a> &nbsp;
-  <a href="#contact"><kbd>联系合作</kbd></a>
+  <a href="#user-content-about"><kbd>关于我</kbd></a> &nbsp;
+  <a href="#user-content-work"><kbd>项目工作台</kbd></a> &nbsp;
+  <a href="#user-content-tools"><kbd>常用技术</kbd></a> &nbsp;
+  <a href="#user-content-contact"><kbd>联系合作</kbd></a>
 </p>
 
 <h2 id="about">把灵感做成可交互的产品 <sub>Ideas into products</sub></h2>
