@@ -19,7 +19,7 @@
 
 *I build AI applications and full-stack products, explore creative interfaces, and learn through making.*
 
-<p><img src="./assets/workbench/workspace.svg" width="100%" alt="Ethan 的产品工作台：项目目录、个人代码档案、界面与 Agent 结构、开发记录。"></p>
+<p align="center"><img src="./assets/coding-room.gif" width="768" alt="像素编程小屋：夜晚敲键盘的开发者、陪伴的猫和冒着热气的杯子。"></p>
 
 > **近期关注 / Now**<br>
 > AI Coding 工作流、Agent 产品、前端交互，以及把完整功能交付给真实用户。
