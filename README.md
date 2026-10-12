@@ -15,7 +15,7 @@
 
 我是 **Ethan Chen / 陈奕恺**，在杭州学习与开发，专注 **AI 应用、全栈开发与交互设计**。关注产品从想法到落地的完整过程：理解需求、组织系统、打磨体验，并完成实现与交付。
 
-主导开发 **名笺** 与 **GitHub Trending Digest**，参与 **EduCanvas** 等校内团队项目，并通过自己的 [个人网站](https://cyk-personal.xyz) 探索视觉表达与交互体验。持续探索 AI 在产品与开发中的应用，让技术能力转化为清晰、可靠、可使用的作品。
+作品包括 **名笺**、**GitHub Trending Digest**、**EduCanvas** 与 **ForgeSight**，以及探索视觉表达与交互体验的 [个人网站](https://cyk-personal.xyz)。持续探索 AI 在产品与开发中的应用，让技术能力转化为清晰、可靠、可使用的作品。
 
 *Exploring the intersection of AI, software engineering, and interaction design.*
 
@@ -34,7 +34,7 @@
 <a href="https://github.com/Timcai06/EduCanvas"><img src="./assets/workbench/educanvas.svg" width="100%" alt="EduCanvas 功能示意：资料、对话、Canvas、Agent 与桌面助手。"></a>
 <h3><a href="https://github.com/Timcai06/EduCanvas">EduCanvas</a> <sub>个人 Agent 与学习空间</sub></h3>
 <p>面向学习与创作，把资料、对话、Canvas 和工具调用组织在同一空间，提供多模态交互与桌面助手。</p>
-<p><b>校内团队项目</b>。我参与桌面助手、语音交互、文件预览、账号与历史记录，以及评测、可观测性和开发体验等工作。</p>
+<p>覆盖桌面助手、语音交互、文件预览、账号与历史记录，以及评测、可观测性和开发体验。</p>
 <p><code>TypeScript</code> <code>Electron</code> <code>Agent</code></p>
 <p><a href="https://github.com/Timcai06/EduCanvas"><kbd>仓库 ↗</kbd></a> <a href="https://github.com/Timcai06/EduCanvas/pulls?q=is%3Apr+author%3Asky-k111"><kbd>开发记录 ↗</kbd></a></p>
 </td>
@@ -42,7 +42,7 @@
 <a href="https://github.com/sky-k111/forge-sight"><img src="./assets/workbench/forgesight.svg" width="100%" alt="ForgeSight 功能示意：自然语言问析、业务图表、报告与智能建模。"></a>
 <h3><a href="https://github.com/sky-k111/forge-sight">ForgeSight</a> <sub>企业数据智能问析</sub></h3>
 <p>面向制造业业务分析，以自然语言连接业务知识、指标口径、SQL 查询与可追溯证据。</p>
-<p><b>校内团队项目</b>。平台提供经营看板、智能建模、Agent 报告与 PDF / Excel 导出、异常监测，以及安全执行与多租户隔离。</p>
+<p>提供经营看板、智能建模、Agent 报告与 PDF / Excel 导出、异常监测，以及安全执行与多租户隔离。</p>
 <p><code>React</code> <code>FastAPI</code> <code>LangGraph</code></p>
 <p><a href="https://github.com/sky-k111/forge-sight"><kbd>仓库 ↗</kbd></a></p>
 </td>
@@ -52,7 +52,7 @@
 <a href="https://github.com/sky-k111/ai-name"><img src="./assets/workbench/naming.svg" width="100%" alt="名笺功能示意：偏好取名、寓意分析、名字比较。"></a>
 <h3><a href="https://github.com/sky-k111/ai-name">名笺</a> <sub>AI 智能取名</sub></h3>
 <p>根据偏好生成名字，结合多轮调整、寓意分析和名字比较，帮助用户理解并选择适合的名字。</p>
-<p><b>软件外包实验室实践项目 · 主导开发</b>。覆盖前后端、模型接入、账号与配额、收藏与历史、管理工作区，以及响应式交互和 Docker 部署。</p>
+<p>覆盖前后端、模型接入、账号与配额、收藏与历史、管理工作区，以及响应式交互和 Docker 部署。</p>
 <p><code>Vue</code> <code>FastAPI</code> <code>DeepSeek</code></p>
 <p><a href="https://github.com/sky-k111/ai-name"><kbd>仓库 ↗</kbd></a></p>
 </td>
@@ -60,7 +60,7 @@
 <a href="https://cyk-personal.xyz"><img src="./assets/workbench/portfolio.svg" width="100%" alt="Portfolio V5 前端交互示意：个人品牌、作品与创意视觉。"></a>
 <h3><a href="https://github.com/sky-k111/my-profile-v5">Portfolio V5</a> <sub>个人网站与前端作品集</sub></h3>
 <p>用一个可以浏览和交互的空间，展示个人介绍、项目和联系方式。</p>
-<p><b>个人开发作品</b>。探索 Three.js 视觉、开场序列、GSAP 动效与页面转场，把产品与个人表达融入前端体验。</p>
+<p>探索 Three.js 视觉、开场序列、GSAP 动效与页面转场，把产品与个人表达融入前端体验。</p>
 <p><code>React</code> <code>TypeScript</code> <code>Three.js</code> <code>GSAP</code></p>
 <p><a href="https://cyk-personal.xyz"><kbd>cyk-personal.xyz ↗</kbd></a> <a href="https://github.com/sky-k111/my-profile-v5"><kbd>仓库 ↗</kbd></a></p>
 </td>
@@ -88,7 +88,7 @@
 <a href="https://github.com/sky-k111/gh-trending-digest"><img src="./assets/workbench/digest.svg" width="100%" alt="Trending Digest 升级示意：信息来源、整理与预览。"></a>
 <h3><a href="https://github.com/sky-k111/gh-trending-digest">GitHub Trending Digest</a></h3>
 <p>用 AI 筛选开源项目，整理摘要并通过邮件推送。<b>项目正在升级中</b>，向个人早晚信息简报演进。</p>
-<p><b>主导开发</b>。官方公告与 GitHub 来源、事件去重和 PDF / Word 预览已实现；偏好记忆、中文编辑与差异化早晚简报属于后续升级方向。</p>
+<p>官方公告与 GitHub 来源、事件去重和 PDF / Word 预览已实现；偏好记忆、中文编辑与差异化早晚简报属于后续升级方向。</p>
 <p><code>Python</code> <code>GitHub Actions</code> <code>LLM</code></p>
 <p><a href="https://github.com/sky-k111/gh-trending-digest"><kbd>仓库 ↗</kbd></a></p>
 </td>
