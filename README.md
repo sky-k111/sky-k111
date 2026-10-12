@@ -13,11 +13,11 @@
 
 <h2>把灵感做成可交互的产品 <sub>Ideas into products</sub></h2>
 
-你好，我是 **Ethan Chen / 陈奕恺**，在杭州学习与开发。我专注于 **AI 应用、全栈产品和前端交互**，喜欢沿着一个想法，从需求拆解、界面与数据，到后端、模型接入和部署，做出可以使用的作品。
+我是 **Ethan Chen / 陈奕恺**，在杭州学习与开发，专注 **AI 应用、全栈开发与交互设计**。关注产品从想法到落地的完整过程：理解需求、组织系统、打磨体验，并完成实现与交付。
 
-我对 **AI Coding 有极大的兴趣**，也熟悉 Skills 与 MCP。探索 DeepSeek、Qwen、Kimi、GLM、Claude Code、Codex 在设计、编码和问题诊断中的用法；在实践中“学中做、做中学”。我主导过名笺、GitHub Trending Digest，也开发了自己的 [个人网站](https://cyk-personal.xyz)，并参与 EduCanvas 等校内团队项目。
+主导开发 **名笺** 与 **GitHub Trending Digest**，参与 **EduCanvas** 等校内团队项目，并通过自己的 [个人网站](https://cyk-personal.xyz) 探索视觉表达与交互体验。持续探索 AI 在产品与开发中的应用，让技术能力转化为清晰、可靠、可使用的作品。
 
-*I build AI applications and full-stack products, explore creative interfaces, and learn through making.*
+*Exploring the intersection of AI, software engineering, and interaction design.*
 
 <p align="center"><img src="./assets/coding-room.gif" width="768" alt="像素编程小屋：夜晚敲键盘的开发者、陪伴的猫和冒着热气的杯子。"></p>
 
