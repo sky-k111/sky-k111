@@ -11,13 +11,6 @@
   <a href="https://x.com/ykchenxxx"><img src="./assets/workbench/contact-x.svg" height="36" alt="X @ykchenxxx"></a>
 </p>
 
-<p align="center">
-  <a href="#把灵感做成可交互的产品-ideas-into-products"><kbd>关于我</kbd></a> &nbsp;
-  <a href="#项目工作台-selected-work"><kbd>项目工作台</kbd></a> &nbsp;
-  <a href="#常用技术-toolbox"><kbd>常用技术</kbd></a> &nbsp;
-  <a href="#一起做点有用的东西-lets-build"><kbd>联系合作</kbd></a>
-</p>
-
 <h2>把灵感做成可交互的产品 <sub>Ideas into products</sub></h2>
 
 你好，我是 **Ethan Chen / 陈奕恺**，在杭州学习与开发。我专注于 **AI 应用、全栈产品和前端交互**，喜欢沿着一个想法，从需求拆解、界面与数据，到后端、模型接入和部署，做出可以使用的作品。
