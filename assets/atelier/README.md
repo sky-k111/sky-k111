@@ -23,4 +23,6 @@ Four terminal vignettes show documented startup commands:
 Startup snippets assume the repositories' documented environment setup.
 Other terminal text and all previews illustrate project capabilities.
 The animations are concept sketches rather than execution logs or live metrics.
+Adaptive Workflow uses a Codex-inspired task conversation: a request is entered,
+the assistant suggests `Adaptive Workflow`, and the skill is selected.
 The existing pixel coding room remains the profile's main illustration.

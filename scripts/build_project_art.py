@@ -174,16 +174,78 @@ def preview_digest(accent):
     return out
 
 
-def preview_adaptive(accent):
-    out = text(376, 132, 'Choose with evidence', 13, accent)
-    positions = [(411,171,'Evidence'),(513,214,'Method'),(411,261,'Verify')]
-    out += path('M 436 171 H 513 V 196 M 513 232 V 261 H 438', '#546383', 1.5)
-    out += path('M 410 243 V 189', '#546383', 1.5, 'stroke-dasharray="3 4"')
-    for i, (x,y,label) in enumerate(positions):
-        out += rect(x-35, y-16, 76, 32, '#27334d', 5, f'stroke="{accent}" stroke-opacity=".35"')
-        out += rect(x-35,y-16,76,32,accent,5,f'fill-opacity=".15" class="route r{i}"')
-        out += text(x-27,y+4,label,12,INK)
-    out += text(376, 310, 'Preserve progress. Check outcomes.', 10, MUTED)
+def build_codex_skill(project, index):
+    """A Codex-inspired conversation; the displayed skill name is user supplied."""
+    skill = project['skill']
+    prompt, prompt_css = typed(226, 151, '优化项目交互，保留已有成果。', .15, 1.15, INK, 'task-prompt')
+    using, using_css = typed(194, 354, 'Using skill: '+skill, 6.0, 1.1, MINT, 'skill-use')
+    css = '''
+    @keyframes reply{0%,16%{opacity:0}24%,94%{opacity:1}100%{opacity:0}}
+    @keyframes recommend{0%,31%{opacity:0}39%,94%{opacity:1}100%{opacity:0}}
+    @keyframes use{0%,58%{opacity:0}66%,94%{opacity:1}100%{opacity:0}}
+    @keyframes pointer{0%,44%{opacity:0;transform:translate(8px,8px)}50%,54%{opacity:1;transform:translate(0,0)}58%,100%{opacity:0;transform:translate(0,0)}}
+    @keyframes apply{0%,58%{opacity:1}61%,94%{opacity:0}100%{opacity:1}}
+    @keyframes applied{0%,58%{opacity:0}61%,94%{opacity:1}100%{opacity:0}}
+    @keyframes cursor{0%,48%{opacity:1}49%,100%{opacity:0}}
+    @keyframes twinkle{0%,100%{opacity:.2}50%{opacity:.55}}
+    .reply{animation:reply 10s ease-in-out infinite}
+    .recommend{animation:recommend 10s ease-in-out infinite}
+    .using{animation:use 10s ease-in-out infinite}
+    .pointer{animation:pointer 10s ease-in-out infinite}
+    .apply{animation:apply 10s step-end infinite}
+    .applied{animation:applied 10s step-end infinite}
+    .cursor{animation:cursor 1.25s step-end infinite}
+    .star{animation:twinkle 6s ease-in-out infinite}.s1{animation-delay:-2s}.s2{animation-delay:-4s}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}.pointer,.apply{opacity:0}.applied{opacity:1}}
+    ''' + prompt_css + using_css
+    out = f'<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc"><title id="title">Adaptive Workflow — Codex 风格任务界面</title><desc id="desc">概念动画：输入任务，助手提示使用 {escape(skill)}，应用后按证据选择方法并保留已有成果。</desc>'
+    out += '<style>'+css+'</style><defs><filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#080c19" flood-opacity=".5"/></filter></defs>'
+    out += pixel_night(index+16,LILAC)
+    out += '<g font-family="Inter,Segoe UI,Microsoft YaHei,sans-serif">'
+    out += rect(24,30,592,423,'#171b24',8,'stroke="#3b4661" filter="url(#shadow)"')
+    out += rect(25,31,590,34,'#252d46',7) + rect(25,55,590,10,'#252d46')
+    for x,c in zip((41,54,67),('#af8286','#c4a379','#7fada0')):
+        out += dot(x,48,c,3.5)
+    out += text(87,53,'Codex',16,INK,'font-weight="600"')
+    out += text(598,52,'Adaptive Workflow',12,LILAC,'text-anchor="end"')
+    # Task sidebar, using the same quiet night palette as the other project cards.
+    out += rect(25,65,124,363,'#131720') + path('M149 65V429','#2d3342',1)
+    out += text(42,96,'＋  新任务',13,INK)
+    out += rect(35,117,104,45,'#252c3b',6)
+    out += text(45,139,'项目交互优化',12,INK) + text(45,154,'当前任务',10,MUTED)
+    out += text(43,195,'工作区',11,MUTED) + text(43,220,'◇  README.md',11,INK)
+    out += text(43,260,'工具',11,MUTED) + text(43,285,'✦  Skills',12,LILAC)
+    out += text(43,395,'Ethan Chen',11,MUTED)
+    # Conversation header and user request.
+    out += text(168,95,'项目交互优化',16,INK,'font-weight="600"')
+    out += text(594,95,'···',20,MUTED,'text-anchor="end"') + path('M168 109H594','#303642',1)
+    out += rect(211,126,381,53,'#282f3f',10)
+    out += prompt + text(226,169,'按当前任务选择合适的方法。',12,MUTED)
+    # Assistant response appears, followed by an explicit skill recommendation.
+    out += '<g class="reply">'
+    out += rect(169,199,21,21,'#30384b',5) + text(174,214,'✳',16,LILAC)
+    out += text(199,214,'Codex',13,INK,'font-weight="600"')
+    out += text(169,241,'先查看相关文件与已有验证，',14,INK)
+    out += text(169,263,'再依据证据选择合适的工作方式。',14,INK) + '</g>'
+    out += '<g class="recommend">'
+    out += rect(169,280,423,49,'#282b42',8,'stroke="#716390" stroke-opacity=".65"')
+    out += text(182,311,'✦',18,LILAC)
+    out += text(207,298,'建议使用 skill',11,MUTED)
+    out += text(207,319,skill,17,LILAC,'font-family="Cascadia Code,Consolas,monospace" font-weight="600"')
+    out += rect(525,291,55,27,'#403a56',6)
+    out += '<g class="apply">'+text(538,309,'应用',12,INK)+'</g>'
+    out += '<g class="applied">'+text(538,309,'已用',12,MINT)+'</g>'
+    out += '</g>'
+    out += '<g class="pointer">'+path('M557 307L557 323L562 319L566 326L571 323L567 316L574 315Z','#101624',3)+path('M557 307L557 323L562 319L566 326L571 323L567 316L574 315Z',INK,1.3)+'</g>'
+    out += '<g class="using">'+text(172,354,'✓',15,MINT)+'</g>'+using
+    out += rect(169,379,423,45,'#202631',10,'stroke="#343e4e"')
+    out += text(183,399,'继续完善功能与交互…',12,MUTED) + rect(321,387,1.5,15,LILAC,extra='class="cursor"')
+    out += text(183,416,'＋   Local',10,'#78879d') + dot(573,399,LILAC,11)
+    out += path('M573 404V394M569 398L573 394L577 398','#191e2a',1.5)
+    out += rect(25,429,590,23,'#27334d') + text(39,445,'Adaptive Workflow',11,LILAC)
+    out += text(598,445,'Evidence  /  Method  /  Verify',10,MUTED,'text-anchor="end"')
+    out += '</g></svg>'
+    ET.fromstring(out)
     return out
 
 
@@ -203,7 +265,7 @@ PROJECTS = [
     dict(slug='digest', title='GitHub Trending Digest', file='briefing.py', accent=GOLD, language='Python', category='Project in progress', tags=['Sources','Dedup','Preview'],
          command='briefing.preview(sources)', result='sources → deduplication → preview', preview=preview_digest),
     dict(slug='adaptive', title='Adaptive Workflow', file='workflow.yaml', accent=LILAC, language='YAML', category='Evidence before method', tags=['Evidence','Method','Verify'],
-         command='workflow.choose(evidence)', result='inspect → choose → verify', preview=preview_adaptive),
+         skill='Adaptive Workflow'),
 ]
 
 # Large README excerpts remain legible at GitHub's ~400px card width.
@@ -222,6 +284,8 @@ PROJECT_NOTES = {
 def build(project, index):
     p = project
     slug, accent = p['slug'], p['accent']
+    if slug == 'adaptive':
+        return build_codex_skill(p,index)
     headline, strap, features = PROJECT_NOTES[slug]
     code = ''.join(text(51, 148+i*29, str(i+1), 11, '#55617b') for i in range(5))
     code += text(73, 149, '#', 24, '#677184') + text(97, 149, headline, 22 if len(headline)>16 else 25, accent, 'font-weight="600"')
