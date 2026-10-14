@@ -26,12 +26,12 @@
 
 <h2>项目工作台 <sub>Selected work</sub></h2>
 
-<sub>下方插画展示项目功能与交互结构。</sub>
+<sub>项目概念动画 · 功能与交互的视觉表达。</sub>
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Timcai06/EduCanvas"><img src="./assets/workbench/educanvas.svg" width="100%" alt="EduCanvas 功能示意：资料、对话、Canvas、Agent 与桌面助手。"></a>
+<a href="https://github.com/Timcai06/EduCanvas"><img src="./assets/atelier/educanvas.svg" width="100%" alt="EduCanvas 概念动画：夜景编辑器、资料对话、Canvas 与桌面助手。"></a>
 <h3><a href="https://github.com/Timcai06/EduCanvas">EduCanvas</a> <sub>个人 Agent 与学习空间</sub></h3>
 <p>面向学习与创作，把资料、对话、Canvas 和工具调用组织在同一空间，提供多模态交互与桌面助手。</p>
 <p>覆盖桌面助手、语音交互、文件预览、账号与历史记录，以及评测、可观测性和开发体验。</p>
@@ -39,7 +39,7 @@
 <p><a href="https://github.com/Timcai06/EduCanvas"><kbd>仓库 ↗</kbd></a> <a href="https://github.com/Timcai06/EduCanvas/pulls?q=is%3Apr+author%3Asky-k111"><kbd>开发记录 ↗</kbd></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/forge-sight"><img src="./assets/workbench/forgesight.svg" width="100%" alt="ForgeSight 功能示意：自然语言问析、业务图表、报告与智能建模。"></a>
+<a href="https://github.com/sky-k111/forge-sight"><img src="./assets/atelier/forgesight.svg" width="100%" alt="ForgeSight 概念动画：问析终端、经营趋势、证据与报告。"></a>
 <h3><a href="https://github.com/sky-k111/forge-sight">ForgeSight</a> <sub>企业数据智能问析</sub></h3>
 <p>面向制造业业务分析，以自然语言连接业务知识、指标口径、SQL 查询与可追溯证据。</p>
 <p>提供经营看板、智能建模、Agent 报告与 PDF / Excel 导出、异常监测，以及安全执行与多租户隔离。</p>
@@ -49,7 +49,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/ai-name"><img src="./assets/workbench/naming.svg" width="100%" alt="名笺功能示意：偏好取名、寓意分析、名字比较。"></a>
+<a href="https://github.com/sky-k111/ai-name"><img src="./assets/atelier/naming.svg" width="100%" alt="名笺概念动画：偏好输入、名字浮现与寓意分析。"></a>
 <h3><a href="https://github.com/sky-k111/ai-name">名笺</a> <sub>AI 智能取名</sub></h3>
 <p>根据偏好生成名字，结合多轮调整、寓意分析和名字比较，帮助用户理解并选择适合的名字。</p>
 <p>覆盖前后端、模型接入、账号与配额、收藏与历史、管理工作区，以及响应式交互和 Docker 部署。</p>
@@ -57,7 +57,7 @@
 <p><a href="https://github.com/sky-k111/ai-name"><kbd>仓库 ↗</kbd></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://cyk-personal.xyz"><img src="./assets/workbench/portfolio.svg" width="100%" alt="Portfolio V5 前端交互示意：个人品牌、作品与创意视觉。"></a>
+<a href="https://cyk-personal.xyz"><img src="./assets/atelier/portfolio.svg" width="100%" alt="Portfolio V5 概念动画：个人品牌、线框场景与创意视觉。"></a>
 <h3><a href="https://github.com/sky-k111/my-profile-v5">Portfolio V5</a> <sub>个人网站与前端作品集</sub></h3>
 <p>用一个可以浏览和交互的空间，展示个人介绍、项目和联系方式。</p>
 <p>探索 Three.js 视觉、开场序列、GSAP 动效与页面转场，把产品与个人表达融入前端体验。</p>
@@ -67,7 +67,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/homepage"><img src="./assets/workbench/homepage.svg" width="100%" alt="Personal Homepage 前端功能示意：页面叙事、滚动动效与绘图页面。"></a>
+<a href="https://github.com/sky-k111/homepage"><img src="./assets/atelier/homepage.svg" width="100%" alt="Personal Homepage 概念动画：网页叙事、滚动动效与绘图空间。"></a>
 <h3><a href="https://github.com/sky-k111/homepage">Personal Homepage</a> <sub>网页视觉与交互实践</sub></h3>
 <p>个人主页与绘图页面，围绕介绍、技能、项目和联系信息组织页面叙事。</p>
 <p>探索滚动动效、视觉编排与交互细节，在前端实践中把内容变成可浏览的体验。</p>
@@ -75,7 +75,7 @@
 <p><a href="https://github.com/sky-k111/homepage"><kbd>仓库 ↗</kbd></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/translation"><img src="./assets/workbench/translation.svg" width="100%" alt="Translation 功能示意：网页划词、生词管理与复习。"></a>
+<a href="https://github.com/sky-k111/translation"><img src="./assets/atelier/translation.svg" width="100%" alt="Translation 概念动画：网页选词、翻译浮层与词汇学习。"></a>
 <h3><a href="https://github.com/sky-k111/translation">Translation</a> <sub>网页翻译与词汇学习</sub></h3>
 <p>在网页阅读过程中连接划词翻译、生词管理、闪卡、拼写练习与间隔复习。</p>
 <p>关注翻译后的学习体验、浏览器交互和词汇管理，让查询之后的单词继续进入学习过程。</p>
@@ -85,7 +85,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/gh-trending-digest"><img src="./assets/workbench/digest.svg" width="100%" alt="Trending Digest 升级示意：信息来源、整理与预览。"></a>
+<a href="https://github.com/sky-k111/gh-trending-digest"><img src="./assets/atelier/digest.svg" width="100%" alt="Trending Digest 概念动画：信息整理终端、来源去重与简报预览。"></a>
 <h3><a href="https://github.com/sky-k111/gh-trending-digest">GitHub Trending Digest</a></h3>
 <p>用 AI 筛选开源项目，整理摘要并通过邮件推送。<b>项目正在升级中</b>，向个人早晚信息简报演进。</p>
 <p>官方公告与 GitHub 来源、事件去重和 PDF / Word 预览已实现；偏好记忆、中文编辑与差异化早晚简报属于后续升级方向。</p>
@@ -93,7 +93,7 @@
 <p><a href="https://github.com/sky-k111/gh-trending-digest"><kbd>仓库 ↗</kbd></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/adaptive-skill-router"><img src="./assets/workbench/adaptive.svg" width="100%" alt="Adaptive Workflow 方法示意：证据、方法选择与验证。"></a>
+<a href="https://github.com/sky-k111/adaptive-skill-router"><img src="./assets/atelier/adaptive.svg" width="100%" alt="Adaptive Workflow 概念动画：证据、方法选择与验证路线。"></a>
 <h3><a href="https://github.com/sky-k111/adaptive-skill-router">Adaptive Workflow</a></h3>
 <p>探索如何改善 AI Coding 中机械套用流程、长任务重复工作与验证不足的问题。</p>
 <p>依据证据与风险选择方法，保留有效成果，按需检查文件状态、发现能力并做场景评估。<b>仍在探索与评估中</b>。</p>
