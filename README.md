@@ -31,7 +31,7 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Timcai06/EduCanvas"><img src="./assets/atelier/educanvas.svg" width="100%" alt="EduCanvas 概念动画：夜景编辑器、资料对话、Canvas 与桌面助手。"></a>
+<a href="https://github.com/Timcai06/EduCanvas"><img src="./assets/atelier/educanvas.svg?v=startup-20261014" width="100%" alt="EduCanvas 概念动画：启动命令、资料对话、Canvas 与桌面助手。"></a>
 <h3><a href="https://github.com/Timcai06/EduCanvas">EduCanvas</a> <sub>个人 Agent 与学习空间</sub></h3>
 <p>面向学习与创作，把资料、对话、Canvas 和工具调用组织在同一空间，提供多模态交互与桌面助手。</p>
 <p>覆盖桌面助手、语音交互、文件预览、账号与历史记录，以及评测、可观测性和开发体验。</p>
@@ -39,7 +39,7 @@
 <p><a href="https://github.com/Timcai06/EduCanvas"><kbd>仓库 ↗</kbd></a> <a href="https://github.com/Timcai06/EduCanvas/pulls?q=is%3Apr+author%3Asky-k111"><kbd>开发记录 ↗</kbd></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/forge-sight"><img src="./assets/atelier/forgesight.svg" width="100%" alt="ForgeSight 概念动画：问析终端、经营趋势、证据与报告。"></a>
+<a href="https://github.com/sky-k111/forge-sight"><img src="./assets/atelier/forgesight.svg?v=startup-20261014" width="100%" alt="ForgeSight 概念动画：Windows 启动命令、经营趋势、证据与报告。"></a>
 <h3><a href="https://github.com/sky-k111/forge-sight">ForgeSight</a> <sub>企业数据智能问析</sub></h3>
 <p>面向制造业业务分析，以自然语言连接业务知识、指标口径、SQL 查询与可追溯证据。</p>
 <p>提供经营看板、智能建模、Agent 报告与 PDF / Excel 导出、异常监测，以及安全执行与多租户隔离。</p>
@@ -49,7 +49,7 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/ai-name"><img src="./assets/atelier/naming.svg" width="100%" alt="名笺概念动画：偏好输入、名字浮现与寓意分析。"></a>
+<a href="https://github.com/sky-k111/ai-name"><img src="./assets/atelier/naming.svg?v=startup-20261014" width="100%" alt="名笺概念动画：前端启动命令、名字浮现与寓意分析。"></a>
 <h3><a href="https://github.com/sky-k111/ai-name">名笺</a> <sub>AI 智能取名</sub></h3>
 <p>根据偏好生成名字，结合多轮调整、寓意分析和名字比较，帮助用户理解并选择适合的名字。</p>
 <p>覆盖前后端、模型接入、账号与配额、收藏与历史、管理工作区，以及响应式交互和 Docker 部署。</p>
@@ -57,7 +57,7 @@
 <p><a href="https://github.com/sky-k111/ai-name"><kbd>仓库 ↗</kbd></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://cyk-personal.xyz"><img src="./assets/atelier/portfolio.svg" width="100%" alt="Portfolio V5 概念动画：个人品牌、线框场景与创意视觉。"></a>
+<a href="https://cyk-personal.xyz"><img src="./assets/atelier/portfolio.svg?v=startup-20261014" width="100%" alt="Portfolio V5 概念动画：开发启动命令、个人品牌与创意视觉。"></a>
 <h3><a href="https://github.com/sky-k111/my-profile-v5">Portfolio V5</a> <sub>个人网站与前端作品集</sub></h3>
 <p>用一个可以浏览和交互的空间，展示个人介绍、项目和联系方式。</p>
 <p>探索 Three.js 视觉、开场序列、GSAP 动效与页面转场，把产品与个人表达融入前端体验。</p>

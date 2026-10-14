@@ -189,13 +189,13 @@ def preview_adaptive(accent):
 
 PROJECTS = [
     dict(slug='educanvas', title='EduCanvas', file='notebook.ts', accent=GOLD, language='TypeScript', category='Learning agent', tags=['Agent','Canvas','Voice'],
-         command='notebook.open()', result='sources → conversation → canvas', preview=preview_edu),
+         command='make doctor', result='make all', startup='repo root / shell', preview=preview_edu),
     dict(slug='forgesight', title='ForgeSight', file='analysis.py', accent=MINT, language='Python', category='Data intelligence', tags=['Query','Evidence','Modeling'],
-         command='analyst.ask(question)', result='question → query → evidence', preview=preview_forge),
+         command='cd forge-sight', result=r'.\fs.bat', startup='Windows / startup', preview=preview_forge),
     dict(slug='naming', title='名笺 / Mingjian', file='preferences.ts', accent=GOLD, language='TypeScript', category='Names with meaning', tags=['Generate','Refine','Compare'],
-         command='names.generate(preferences)', result='preference → meaning → comparison', preview=preview_name),
+         command='cd frontend', result='npm run dev', startup='frontend / dev', preview=preview_name),
     dict(slug='portfolio', title='Portfolio V5', file='scene.ts', accent=LILAC, language='TypeScript', category='Creative interaction', tags=['Three.js','GSAP','React'],
-         command='scene.play(timeline)', result='identity → motion → interaction', preview=preview_portfolio),
+         command='npm install', result='npm run dev', startup='repo root / dev', preview=preview_portfolio),
     dict(slug='homepage', title='Personal Homepage', file='page.js', accent=BLUE, language='JavaScript', category='Visual storytelling', tags=['Narrative','Scroll','Canvas'],
          command='page.compose(sections)', result='content → layout → experience', preview=preview_home),
     dict(slug='translation', title='Translation', file='reader.js', accent=MINT, language='JavaScript', category='Reading to learning', tags=['Translate','Save','Review'],
@@ -280,8 +280,8 @@ def build(project, index):
     out += path('M 25 330 H 615','#344058',1)
     out += rect(25,331,590,97,'#0d1424')
     out += text(44,348,'TERMINAL',10,accent) + rect(44,352,59,1,accent)
-    out += text(127,348,'OUTPUT',10,'#58677f') + text(594,348,'concept session',10,'#64718a','text-anchor="end"')
-    out += text(44,372,'❯',14,accent) + command + text(44,397,'↳',14,MUTED) + result
+    out += text(127,348,'OUTPUT',10,'#58677f') + text(594,348,p.get('startup','concept session'),10,'#64718a','text-anchor="end"')
+    out += text(44,372,'❯',14,accent) + command + text(44,397,'❯' if p.get('startup') else '↳',14,accent if p.get('startup') else MUTED) + result
     out += rect(25,429,590,23,'#27334d',0) + text(39,445,'⎇ main',11,accent)
     out += dot(115,440,accent,2.5,'class="signal"') + text(126,445,'product sketch',10,MUTED)
     out += text(598,445,p['language']+'   UTF-8',10,MUTED,'text-anchor="end"')
