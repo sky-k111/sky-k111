@@ -175,75 +175,52 @@ def preview_digest(accent):
 
 
 def build_codex_skill(project, index):
-    """A Codex-inspired conversation; the displayed skill name is user supplied."""
+    """A Codex-inspired terminal conversation with the requested skill label."""
     skill = project['skill']
-    prompt, prompt_css = typed(226, 151, '优化项目交互，保留已有成果。', .15, 1.15, INK, 'task-prompt')
-    using, using_css = typed(194, 354, 'Using skill: '+skill, 6.0, 1.1, MINT, 'skill-use')
+    prompt, prompt_css = typed(66, 172, '优化项目交互，保留已有成果。', .15, 1.15, INK, 'task-prompt')
+    using, using_css = typed(67, 308, 'Using skill: '+skill, 5.8, 1.1, MINT, 'skill-use')
     css = '''
     @keyframes reply{0%,16%{opacity:0}24%,94%{opacity:1}100%{opacity:0}}
     @keyframes recommend{0%,31%{opacity:0}39%,94%{opacity:1}100%{opacity:0}}
     @keyframes use{0%,58%{opacity:0}66%,94%{opacity:1}100%{opacity:0}}
-    @keyframes pointer{0%,44%{opacity:0;transform:translate(8px,8px)}50%,54%{opacity:1;transform:translate(0,0)}58%,100%{opacity:0;transform:translate(0,0)}}
-    @keyframes apply{0%,58%{opacity:1}61%,94%{opacity:0}100%{opacity:1}}
-    @keyframes applied{0%,58%{opacity:0}61%,94%{opacity:1}100%{opacity:0}}
     @keyframes cursor{0%,48%{opacity:1}49%,100%{opacity:0}}
     @keyframes twinkle{0%,100%{opacity:.2}50%{opacity:.55}}
     .reply{animation:reply 10s ease-in-out infinite}
     .recommend{animation:recommend 10s ease-in-out infinite}
     .using{animation:use 10s ease-in-out infinite}
-    .pointer{animation:pointer 10s ease-in-out infinite}
-    .apply{animation:apply 10s step-end infinite}
-    .applied{animation:applied 10s step-end infinite}
+    .reply,.recommend,.using,text tspan{animation-delay:-7s!important}
     .cursor{animation:cursor 1.25s step-end infinite}
     .star{animation:twinkle 6s ease-in-out infinite}.s1{animation-delay:-2s}.s2{animation-delay:-4s}
-    @media(prefers-reduced-motion:reduce){*{animation:none!important}.pointer,.apply{opacity:0}.applied{opacity:1}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
     ''' + prompt_css + using_css
-    out = f'<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc"><title id="title">Adaptive Workflow — Codex 风格任务界面</title><desc id="desc">概念动画：输入任务，助手提示使用 {escape(skill)}，应用后按证据选择方法并保留已有成果。</desc>'
+    out = f'<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc"><title id="title">Adaptive Workflow — Codex 终端模拟对话</title><desc id="desc">概念动画：在终端输入任务，Codex 回复建议使用 {escape(skill)}，随后显示 skill 使用状态。</desc>'
     out += '<style>'+css+'</style><defs><filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#080c19" flood-opacity=".5"/></filter></defs>'
     out += pixel_night(index+16,LILAC)
-    out += '<g font-family="Inter,Segoe UI,Microsoft YaHei,sans-serif">'
-    out += rect(24,30,592,423,'#171b24',8,'stroke="#3b4661" filter="url(#shadow)"')
+    out += '<g font-family="Cascadia Code,Consolas,Microsoft YaHei,monospace">'
+    out += rect(24,30,592,423,'#111824',8,'stroke="#3b4661" filter="url(#shadow)"')
     out += rect(25,31,590,34,'#252d46',7) + rect(25,55,590,10,'#252d46')
     for x,c in zip((41,54,67),('#af8286','#c4a379','#7fada0')):
         out += dot(x,48,c,3.5)
-    out += text(87,53,'Codex',16,INK,'font-weight="600"')
-    out += text(598,52,'Adaptive Workflow',12,LILAC,'text-anchor="end"')
-    # Task sidebar, using the same quiet night palette as the other project cards.
-    out += rect(25,65,124,363,'#131720') + path('M149 65V429','#2d3342',1)
-    out += text(42,96,'＋  新任务',13,INK)
-    out += rect(35,117,104,45,'#252c3b',6)
-    out += text(45,139,'项目交互优化',12,INK) + text(45,154,'当前任务',10,MUTED)
-    out += text(43,195,'工作区',11,MUTED) + text(43,220,'◇  README.md',11,INK)
-    out += text(43,260,'工具',11,MUTED) + text(43,285,'✦  Skills',12,LILAC)
-    out += text(43,395,'Ethan Chen',11,MUTED)
-    # Conversation header and user request.
-    out += text(168,95,'项目交互优化',16,INK,'font-weight="600"')
-    out += text(594,95,'···',20,MUTED,'text-anchor="end"') + path('M168 109H594','#303642',1)
-    out += rect(211,126,381,53,'#282f3f',10)
-    out += prompt + text(226,169,'按当前任务选择合适的方法。',12,MUTED)
-    # Assistant response appears, followed by an explicit skill recommendation.
-    out += '<g class="reply">'
-    out += rect(169,199,21,21,'#30384b',5) + text(174,214,'✳',16,LILAC)
-    out += text(199,214,'Codex',13,INK,'font-weight="600"')
-    out += text(169,241,'先查看相关文件与已有验证，',14,INK)
-    out += text(169,263,'再依据证据选择合适的工作方式。',14,INK) + '</g>'
+    out += text(87,53,'Codex / terminal',14,INK)
+    out += text(598,52,'Ethan’s atelier',10,MUTED,'text-anchor="end"')
+    out += rect(43,83,553,56,'#151e2d',6,'stroke="#364259"')
+    out += text(58,107,'>_ Codex',20,INK,'font-weight="600"')
+    out += text(58,126,'workspace / adaptive-workflow',12,MUTED)
+    out += text(44,173,'›',19,LILAC) + prompt
+    out += '<g class="reply">'+text(44,212,'●',12,LILAC)
+    out += text(66,213,'我会先查看相关代码与已有验证。',15,INK) + '</g>'
     out += '<g class="recommend">'
-    out += rect(169,280,423,49,'#282b42',8,'stroke="#716390" stroke-opacity=".65"')
-    out += text(182,311,'✦',18,LILAC)
-    out += text(207,298,'建议使用 skill',11,MUTED)
-    out += text(207,319,skill,17,LILAC,'font-family="Cascadia Code,Consolas,monospace" font-weight="600"')
-    out += rect(525,291,55,27,'#403a56',6)
-    out += '<g class="apply">'+text(538,309,'应用',12,INK)+'</g>'
-    out += '<g class="applied">'+text(538,309,'已用',12,MINT)+'</g>'
-    out += '</g>'
-    out += '<g class="pointer">'+path('M557 307L557 323L562 319L566 326L571 323L567 316L574 315Z','#101624',3)+path('M557 307L557 323L562 319L566 326L571 323L567 316L574 315Z',INK,1.3)+'</g>'
-    out += '<g class="using">'+text(172,354,'✓',15,MINT)+'</g>'+using
-    out += rect(169,379,423,45,'#202631',10,'stroke="#343e4e"')
-    out += text(183,399,'继续完善功能与交互…',12,MUTED) + rect(321,387,1.5,15,LILAC,extra='class="cursor"')
-    out += text(183,416,'＋   Local',10,'#78879d') + dot(573,399,LILAC,11)
-    out += path('M573 404V394M569 398L573 394L577 398','#191e2a',1.5)
+    out += text(66,238,'这个任务适合使用以下 skill：',15,INK)
+    out += rect(66,251,330,32,'#292c42',5,'stroke="#716390" stroke-opacity=".55"')
+    out += text(79,273,'✦  '+skill,17,LILAC,'font-weight="600"')+'</g>'
+    out += '<g class="using">'+text(44,308,'✓',15,MINT)
+    out += text(67,335,'依据证据选择方法，保留已有成果。',14,MUTED)+'</g>'+using
+    out += path('M43 363H596','#344058',1)
+    out += text(44,393,'›',19,LILAC) + text(66,392,'继续输入你的任务…',14,MUTED)
+    out += rect(226,381,2,16,LILAC,extra='class="cursor"')
+    out += text(44,416,'? for shortcuts',11,'#6d7e99')
     out += rect(25,429,590,23,'#27334d') + text(39,445,'Adaptive Workflow',11,LILAC)
-    out += text(598,445,'Evidence  /  Method  /  Verify',10,MUTED,'text-anchor="end"')
+    out += text(598,445,'Terminal  /  Skills',10,MUTED,'text-anchor="end"')
     out += '</g></svg>'
     ET.fromstring(out)
     return out

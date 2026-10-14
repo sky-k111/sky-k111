@@ -93,7 +93,7 @@
 <p><a href="https://github.com/sky-k111/gh-trending-digest"><kbd>仓库 ↗</kbd></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/adaptive-skill-router"><img src="./assets/atelier/adaptive.svg?v=codex-skill-20261014" width="100%" alt="Adaptive Workflow 概念动画：Codex 风格任务界面提示使用 Adaptive Workflow skill。"></a>
+<a href="https://github.com/sky-k111/adaptive-skill-router"><img src="./assets/atelier/adaptive.svg?v=codex-terminal-20261014" width="100%" alt="Adaptive Workflow 概念动画：Codex 终端模拟对话中提示使用 Adaptive Workflow skill。"></a>
 <h3><a href="https://github.com/sky-k111/adaptive-skill-router">Adaptive Workflow</a></h3>
 <p>探索如何改善 AI Coding 中机械套用流程、长任务重复工作与验证不足的问题。</p>
 <p>依据证据与风险选择方法，保留有效成果，按需检查文件状态、发现能力并做场景评估。<b>仍在探索与评估中</b>。</p>
