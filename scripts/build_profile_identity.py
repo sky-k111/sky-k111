@@ -82,7 +82,7 @@ def tech_stack():
     return ''.join(parts)
 
 
-for name, content in [('title-light.svg',header()), ('title-dark.svg',header(True)), ('tech-stack.svg',tech_stack())]:
+for name, content in [('title-animated-light.svg',header()), ('title-animated-dark.svg',header(True)), ('tech-stack.svg',tech_stack())]:
     ET.fromstring(content)
     (OUT / name).write_text(content+'\n', encoding='utf-8')
     print('Built', name)
