@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/workbench/title-animated-dark.svg">
-    <img src="./assets/workbench/title-animated-light.svg" width="760" alt="Ethan Chen / 陈奕恺 — AI applications, full-stack products, creative coding.">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/workbench/title-code-dark.svg">
+    <img src="./assets/workbench/title-code-light.svg" width="760" alt="Ethan Chen / 陈奕恺 — AI applications, full-stack products, creative coding.">
   </picture>
 </p>
 

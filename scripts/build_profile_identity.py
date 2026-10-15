@@ -13,29 +13,27 @@ FONT = 'Cascadia Code, Consolas, Microsoft YaHei, monospace'
 
 
 def header(dark=False):
-    ink, muted, line = ('#E4ECF7', '#8FA3BC', '#34445E') if dark else ('#1A263C', '#586A83', '#D9E4EB')
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="170" viewBox="0 0 1000 170" role="img" aria-labelledby="title desc">
+    ink, muted, accent = ('#E4ECF7', '#8FA3BC', '#94D3BE') if dark else ('#1A263C', '#586A83', '#4B9987')
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="145" viewBox="0 0 1000 145" role="img" aria-labelledby="title desc">
 <title id="title">Ethan Chen / 陈奕恺 — AI applications and full-stack products</title>
-<desc id="desc">A name reveal, a terminal cursor and a mint signal moving along a fine line. / 姓名渐次显现、终端光标与流动细线。</desc>
-<defs><linearGradient id="signal"><stop stop-color="#94D3BE" stop-opacity="0"/><stop offset=".5" stop-color="#94D3BE"/><stop offset="1" stop-color="#B5A2E2" stop-opacity="0"/></linearGradient><clipPath id="track"><rect x="220" y="140" width="560" height="12"/></clipPath></defs>
+<desc id="desc">A name reveal framed by softly breathing code brackets, with a terminal cursor. / 姓名渐次显现，两侧代码括号缓慢呼吸，副标题保留终端光标。</desc>
 <style>
 .name{{animation:reveal 1.8s cubic-bezier(.2,.7,.2,1) both}}
 .subtitle{{animation:subtitle .8s .75s both}}
 .cursor{{animation:blink 1.2s 1.6s step-end infinite}}
-.signal{{animation:travel 7s 1.4s ease-in-out infinite}}
+.bracket{{animation:breathe 4.5s ease-in-out infinite}}
 @keyframes reveal{{from{{clip-path:inset(0 100% 0 0)}}to{{clip-path:inset(0 0 0 0)}}}}
 @keyframes subtitle{{from{{opacity:0;transform:translateY(5px)}}to{{opacity:1;transform:translateY(0)}}}}
 @keyframes blink{{0%,50%{{opacity:1}}51%,100%{{opacity:0}}}}
-@keyframes travel{{0%{{transform:translateX(0);opacity:0}}12%{{opacity:1}}88%{{opacity:1}}100%{{transform:translateX(700px);opacity:0}}}}
-@media(prefers-reduced-motion:reduce){{.name,.subtitle,.cursor,.signal{{animation:none}}.cursor,.signal{{opacity:0}}}}
+@keyframes breathe{{0%,100%{{opacity:.4}}50%{{opacity:.95}}}}
+@media(prefers-reduced-motion:reduce){{.name,.subtitle,.cursor,.bracket{{animation:none}}.cursor{{opacity:0}}.bracket{{opacity:.7}}}}
 </style>
 <g font-family="{FONT}" text-anchor="middle">
+<g class="bracket" fill="{accent}" font-size="38"><text x="180" y="66">&lt;</text><text x="825" y="66">/&gt;</text></g>
 <text class="name" x="500" y="68" font-size="51" fill="{ink}" font-weight="700">Ethan Chen / 陈奕恺</text>
 <text class="subtitle" x="500" y="113" font-size="20" fill="{muted}">AI applications / Full-stack products / Creative coding</text>
 </g>
 <rect class="cursor" x="834" y="96" width="3" height="21" rx="1" fill="#94D3BE"/>
-<path d="M220 146H780" stroke="{line}"/>
-<g clip-path="url(#track)"><g class="signal"><path d="M80 146H220" stroke="url(#signal)" stroke-width="2"/><circle cx="220" cy="146" r="2.5" fill="#94D3BE"/></g></g>
 </svg>'''
 
 
@@ -82,7 +80,7 @@ def tech_stack():
     return ''.join(parts)
 
 
-for name, content in [('title-animated-light.svg',header()), ('title-animated-dark.svg',header(True)), ('tech-stack.svg',tech_stack())]:
+for name, content in [('title-code-light.svg',header()), ('title-code-dark.svg',header(True)), ('tech-stack.svg',tech_stack())]:
     ET.fromstring(content)
     (OUT / name).write_text(content+'\n', encoding='utf-8')
     print('Built', name)
