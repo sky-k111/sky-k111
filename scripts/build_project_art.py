@@ -90,7 +90,7 @@ def preview_edu(accent):
 
 def preview_forge(accent):
     out = text(376, 132, 'Business question', 13, accent)
-    out += rect(376, 146, 192, 27, '#25304a', 4) + text(386, 164, '本月经营趋势？', 13, INK)
+    out += rect(376, 146, 192, 27, '#25304a', 4) + text(386, 164, 'Business trend?', 13, INK)
     for y in (196, 222, 248):
         out += path(f'M 383 {y} H 560', '#2c3850', 1)
     out += path('M 383 255 V 185 M 383 255 H 560', '#54607a', 1)
@@ -106,9 +106,9 @@ def preview_name(accent):
     out += path('M 390 159 V 151 H 399 M 553 275 V 284 H 544', accent, 1)
     out += '<g class="name-reveal">'
     out += text(412, 207, '清和', 39, '#f0dbc0', 'font-family="Noto Serif SC,SimSun,serif" letter-spacing="8"')
-    out += text(405, 233, '清朗 · 平和', 13, MUTED)
+    out += text(405, 233, 'Clarity & balance', 11, MUTED)
     out += '</g>' + path('M 405 248 H 539', '#566078', 1)
-    out += text(405, 270, '寓意  /  偏好  /  比较', 12, accent)
+    out += text(405, 270, 'Meaning / Compare', 11, accent)
     out += rect(542, 161, 12, 12, '#a76a67', 2)
     out += text(544, 170, '笺', 8, '#f9dfc7')
     out += text(376, 310, 'Generate → Refine → Compare', 10.5, MUTED)
@@ -152,9 +152,10 @@ def preview_translate(accent):
     out += lines(388, 163, [151, 104, 155], BLUE)
     out += rect(388, 202, 126, 21, accent, 3, 'fill-opacity=".12" class="word-focus"')
     out += text(394, 217, 'serendipity', 15, accent)
-    out += '<g class="answer">' + rect(392, 234, 162, 42, '#303852', 4)
-    out += text(402, 253, '偶然的美好发现', 13, INK)
-    out += text(402, 269, 'Save to vocabulary  +', 10, GOLD) + '</g>'
+    out += '<g class="answer">' + rect(392, 228, 162, 54, '#303852', 4)
+    out += text(402, 244, 'A fortunate discovery', 10.5, INK)
+    out += text(402, 260, '偶然的美好发现', 11, MUTED)
+    out += text(402, 275, 'Save to vocabulary  +', 9.5, GOLD) + '</g>'
     out += text(376, 310, 'Vocabulary / Flashcards / Review', 10, MUTED)
     return out
 
@@ -177,7 +178,7 @@ def preview_digest(accent):
 def build_codex_skill(project, index):
     """A Codex-inspired terminal conversation with the requested skill label."""
     skill = project['skill']
-    prompt, prompt_css = typed(66, 172, '优化项目交互，保留已有成果。', .15, 1.15, INK, 'task-prompt')
+    prompt, prompt_css = typed(66, 172, 'Improve the UI; preserve existing work.', .15, 1.15, INK, 'task-prompt')
     using, using_css = typed(67, 308, 'Using skill: '+skill, 5.8, 1.1, MINT, 'skill-use')
     css = '''
     @keyframes reply{0%,16%{opacity:0}24%,94%{opacity:1}100%{opacity:0}}
@@ -193,7 +194,7 @@ def build_codex_skill(project, index):
     .star{animation:twinkle 6s ease-in-out infinite}.s1{animation-delay:-2s}.s2{animation-delay:-4s}
     @media(prefers-reduced-motion:reduce){*{animation:none!important}}
     ''' + prompt_css + using_css
-    out = f'<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc"><title id="title">Adaptive Workflow — Codex 终端模拟对话</title><desc id="desc">概念动画：在终端输入任务，Codex 回复建议使用 {escape(skill)}，随后显示 skill 使用状态。</desc>'
+    out = f'<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc"><title id="title">Adaptive Workflow — a Codex terminal conversation</title><desc id="desc">Concept animation: enter a task, receive a suggestion to use {escape(skill)}, then see the skill in use. / Codex 终端对话与 skill 使用示意。</desc>'
     out += '<style>'+css+'</style><defs><filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#080c19" flood-opacity=".5"/></filter></defs>'
     out += pixel_night(index+16,LILAC)
     out += '<g font-family="Cascadia Code,Consolas,Microsoft YaHei,monospace">'
@@ -208,16 +209,17 @@ def build_codex_skill(project, index):
     out += text(58,126,'workspace / adaptive-workflow',12,MUTED)
     out += text(44,173,'›',19,LILAC) + prompt
     out += '<g class="reply">'+text(44,212,'●',12,LILAC)
-    out += text(66,213,'我会先查看相关代码与已有验证。',15,INK) + '</g>'
+    out += text(66,213,"I'll inspect the code and existing checks first.",15,INK) + '</g>'
     out += '<g class="recommend">'
-    out += text(66,238,'这个任务适合使用以下 skill：',15,INK)
+    out += text(66,238,'This task is a good fit for:',15,INK)
     out += rect(66,251,330,32,'#292c42',5,'stroke="#716390" stroke-opacity=".55"')
     out += text(79,273,'✦  '+skill,17,LILAC,'font-weight="600"')+'</g>'
     out += '<g class="using">'+text(44,308,'✓',15,MINT)
-    out += text(67,335,'依据证据选择方法，保留已有成果。',14,MUTED)+'</g>'+using
+    out += text(67,335,'Choose by evidence. Preserve progress.',14,MUTED)
+    out += text(67,352,'依据证据选择方法，保留已有成果。',11,MUTED)+'</g>'+using
     out += path('M43 363H596','#344058',1)
-    out += text(44,393,'›',19,LILAC) + text(66,392,'继续输入你的任务…',14,MUTED)
-    out += rect(226,381,2,16,LILAC,extra='class="cursor"')
+    out += text(44,393,'›',19,LILAC) + text(66,392,'Continue with your task...',14,MUTED)
+    out += rect(286,381,2,16,LILAC,extra='class="cursor"')
     out += text(44,416,'? for shortcuts',11,'#6d7e99')
     out += rect(25,429,590,23,'#27334d') + text(39,445,'Adaptive Workflow',11,LILAC)
     out += text(598,445,'Terminal  /  Skills',10,MUTED,'text-anchor="end"')
@@ -231,7 +233,7 @@ PROJECTS = [
          command='make doctor', result='make all', startup='repo root / shell', preview=preview_edu),
     dict(slug='forgesight', title='ForgeSight', file='analysis.py', accent=MINT, language='Python', category='Data intelligence', tags=['Query','Evidence','Modeling'],
          command='cd forge-sight', result=r'.\fs.bat', startup='Windows / startup', preview=preview_forge),
-    dict(slug='naming', title='名笺 / Mingjian', file='preferences.ts', accent=GOLD, language='TypeScript', category='Names with meaning', tags=['Generate','Refine','Compare'],
+    dict(slug='naming', title='Mingjian / 名笺', file='preferences.ts', accent=GOLD, language='TypeScript', category='Names with meaning', tags=['Generate','Refine','Compare'],
          command='cd frontend', result='npm run dev', startup='frontend / dev', preview=preview_name),
     dict(slug='portfolio', title='Portfolio V5', file='scene.ts', accent=LILAC, language='TypeScript', category='Creative interaction', tags=['Three.js','GSAP','React'],
          command='npm install', result='npm run dev', startup='repo root / dev', preview=preview_portfolio),
@@ -247,14 +249,13 @@ PROJECTS = [
 
 # Large README excerpts remain legible at GitHub's ~400px card width.
 PROJECT_NOTES = {
-    'educanvas': ('EduCanvas', 'Ask. Create. Learn.', ['多模态对话与学习画布', '文件预览与桌面助手']),
-    'forgesight': ('ForgeSight', 'Questions into insight.', ['自然语言问析与证据追溯', '经营看板与智能建模']),
-    'naming': ('名笺', 'A name with meaning.', ['偏好生成与多轮调整', '寓意分析与名字比较']),
-    'portfolio': ('Portfolio V5', 'A space for my work.', ['个人品牌与创意视觉', '3D 场景与页面转场']),
-    'homepage': ('Personal Homepage', 'Stories, in motion.', ['页面叙事与滚动动效', '内容编排与绘图空间']),
-    'translation': ('Translation', 'Read. Save. Remember.', ['网页翻译与生词管理', '闪卡练习与间隔复习']),
-    'digest': ('Trending Digest', 'Less noise. More context.', ['信息来源与事件去重', '摘要整理与文档预览']),
-    'adaptive': ('Adaptive Workflow', 'Evidence before method.', ['依据证据与风险选方法', '保留成果并验证结果']),
+    'educanvas': ('EduCanvas', 'Ask. Create. Learn.', ['Sources, chats & Canvas', 'Voice & desktop assistance'], '个人 Agent 与学习空间'),
+    'forgesight': ('ForgeSight', 'Questions into insight.', ['Natural-language analysis', 'Evidence & business reports'], '企业数据智能问析'),
+    'naming': ('Mingjian', 'A name with meaning.', ['Generate, refine, compare', 'Preferences & meaning'], '名笺 · AI 智能取名'),
+    'portfolio': ('Portfolio V5', 'A space for my work.', ['Identity & creative visuals', '3D scenes & transitions'], '个人网站与前端作品集'),
+    'homepage': ('Personal Homepage', 'Stories, in motion.', ['Stories told through scroll', 'Pages & drawing space'], '网页叙事与交互实践'),
+    'translation': ('Translation', 'Read. Save. Remember.', ['Translate & save words', 'Flashcards & spaced review'], '网页翻译与词汇学习'),
+    'digest': ('Trending Digest', 'Less noise. More context.', ['Sources & deduplication', 'Summaries & previews'], '信息简报 · 项目升级中'),
 }
 
 
@@ -263,11 +264,12 @@ def build(project, index):
     slug, accent = p['slug'], p['accent']
     if slug == 'adaptive':
         return build_codex_skill(p,index)
-    headline, strap, features = PROJECT_NOTES[slug]
+    headline, strap, features, chinese_summary = PROJECT_NOTES[slug]
     code = ''.join(text(51, 148+i*29, str(i+1), 11, '#55617b') for i in range(5))
     code += text(73, 149, '#', 24, '#677184') + text(97, 149, headline, 22 if len(headline)>16 else 25, accent, 'font-weight="600"')
     code += text(73, 179, '> '+strap, 15.5, INK, 'font-style="italic"')
-    code += ''.join(text(73, 227+i*29, '- '+feature, 17, INK) for i,feature in enumerate(features))
+    code += ''.join(text(73, 227+i*29, '- '+feature, 15.5, INK) for i,feature in enumerate(features))
+    code += text(73,282,chinese_summary,10.5,MUTED)
     command, animation_rules = typed(83, 372, p['command'], .5, 1.6, INK, slug)
     result, more_rules = typed(63, 397, p['result'], 3.1, 1.4, accent, slug+'-result')
     css = '''
@@ -295,7 +297,7 @@ def build(project, index):
     .signal{animation:signal 4s ease-in-out infinite}
     @media(prefers-reduced-motion:reduce){*{animation:none!important}.chart{stroke-dashoffset:0}}
     ''' + animation_rules + more_rules
-    out = f'<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc"><title id="title">{escape(p["title"])} — 像素夜景编辑器</title><desc id="desc">项目概念动画，展示 {escape(p["category"])}。代码与终端内容为功能示意，不代表实际运行记录。</desc><style>{css}</style>'
+    out = f'<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc"><title id="title">{escape(p["title"])} — night editor</title><desc id="desc">Concept animation: {escape(p["category"])}. Preview and terminal content illustrate capabilities. / {escape(chinese_summary)}概念动画。</desc><style>{css}</style>'
     out += '<defs><filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#080c19" flood-opacity=".5"/></filter><clipPath id="page-content"><rect x="382" y="169" width="180" height="115"/></clipPath></defs>'
     out += pixel_night(index+16, accent)
     out += '<g font-family="Cascadia Code,Consolas,Microsoft YaHei,monospace">'
@@ -311,7 +313,6 @@ def build(project, index):
     out += rect(42,106,304,210,'#101829',3)
     out += rect(359,106,225,216,'#182238',5,'stroke="#2e3b53"')
     out += code
-    out += rect(75,270,2,17,accent,extra='class="cursor"')
     x = 73
     for tag in p['tags']:
         width = len(tag)*7.2+18

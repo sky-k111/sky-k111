@@ -6,129 +6,144 @@
 </p>
 
 <p align="center">
-  <a href="https://cyk-personal.xyz"><img src="./assets/workbench/contact-web.svg" height="36" alt="个人网站 cyk-personal.xyz"></a>
-  <a href="mailto:1503794397@qq.com"><img src="./assets/workbench/contact-mail.svg" height="36" alt="开发合作邮箱 1503794397@qq.com"></a>
+  <a href="https://cyk-personal.xyz"><img src="./assets/workbench/contact-web.svg" height="36" alt="Visit my website · 个人网站"></a>
+  <a href="mailto:1503794397@qq.com"><img src="./assets/workbench/contact-mail.svg" height="36" alt="Development inquiries · 开发合作：1503794397@qq.com"></a>
   <a href="https://x.com/ykchenxxx"><img src="./assets/workbench/contact-x.svg" height="36" alt="X @ykchenxxx"></a>
 </p>
 
-<h2>把灵感做成可交互的产品 <sub>Ideas into products</sub></h2>
+<h2>Ideas into products <sub>把灵感做成可交互的产品</sub></h2>
 
-我是 **Ethan Chen / 陈奕恺**，在杭州学习与开发，专注 **AI 应用、全栈开发与交互设计**。关注产品从想法到落地的完整过程：理解需求、组织系统、打磨体验，并完成实现与交付。
+I'm **Ethan Chen / 陈奕恺**, a developer based in Hangzhou, China, working across **AI applications, full-stack development and interaction design**. I care about the entire journey from an idea to a working product: understanding the problem, shaping the system, refining the experience and shipping the result.
 
-作品包括 **名笺**、**GitHub Trending Digest**、**EduCanvas** 与 **ForgeSight**，以及探索视觉表达与交互体验的 [个人网站](https://cyk-personal.xyz)。持续探索 AI 在产品与开发中的应用，让技术能力转化为清晰、可靠、可使用的作品。
+My work includes **Mingjian (名笺)**, **GitHub Trending Digest**, **EduCanvas** and **ForgeSight**, alongside a [personal website](https://cyk-personal.xyz) exploring visual expression and interaction. I explore how AI can become a useful part of both software products and the way we build them.
 
-*Exploring the intersection of AI, software engineering, and interaction design.*
+<p><sub>我是陈奕恺，在杭州学习与开发，关注 AI 应用、全栈开发与交互设计。作品包括名笺、GitHub Trending Digest、EduCanvas、ForgeSight 与个人网站，持续把想法转化为清晰、可靠、可使用的作品。</sub></p>
 
-<p align="center"><img src="./assets/coding-room.gif" width="768" alt="像素编程小屋：夜晚敲键盘的开发者、陪伴的猫和冒着热气的杯子。"></p>
+<p align="center"><img src="./assets/coding-room.gif" width="768" alt="A pixel coding room: a developer, a companion cat and a warm cup at night. · 像素编程小屋"></p>
 
-> **近期关注 / Now**<br>
-> AI Coding 工作流、Agent 产品、前端交互，以及把完整功能交付给真实用户。
+> **Now / 近期关注**<br>
+> AI coding workflows, agent products, creative interfaces and complete software delivery.<br>
+> <sub>AI Coding 工作流、Agent 产品、前端交互，以及完整功能的落地交付。</sub>
 
-<h2>项目工作台 <sub>Selected work</sub></h2>
+<h2>Selected work <sub>项目工作台</sub></h2>
 
-<sub>项目概念动画 · 功能与交互的视觉表达。</sub>
+<sub>Concept animations illustrating each project's capabilities and interactions. / 项目功能与交互的概念动画。</sub>
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Timcai06/EduCanvas"><img src="./assets/atelier/educanvas.svg?v=startup-20261014" width="100%" alt="EduCanvas 概念动画：启动命令、资料对话、Canvas 与桌面助手。"></a>
-<h3><a href="https://github.com/Timcai06/EduCanvas">EduCanvas</a> <sub>个人 Agent 与学习空间</sub></h3>
-<p>面向学习与创作，把资料、对话、Canvas 和工具调用组织在同一空间，提供多模态交互与桌面助手。</p>
-<p>覆盖桌面助手、语音交互、文件预览、账号与历史记录，以及评测、可观测性和开发体验。</p>
+<a href="https://github.com/Timcai06/EduCanvas"><img src="./assets/atelier/educanvas.svg?v=en-20261015" width="100%" alt="EduCanvas: startup commands, sources, conversations, Canvas and desktop assistance."></a>
+<h3><a href="https://github.com/Timcai06/EduCanvas">EduCanvas</a> <sub>A personal learning agent</sub></h3>
+<p>A workspace for learning and creation that brings sources, conversations, Canvas and tool use together, with multimodal interaction and desktop assistance.</p>
+<p>Voice interaction, file previews, accounts and conversation history, with evaluation, observability and developer tooling.</p>
+<p><sub>面向学习与创作的个人 Agent，连接资料、对话、画布与桌面体验，涵盖语音交互、文件预览、历史记录及评测。</sub></p>
 <p><code>TypeScript</code> <code>Electron</code> <code>Agent</code></p>
-<p><a href="https://github.com/Timcai06/EduCanvas"><kbd>仓库 ↗</kbd></a> <a href="https://github.com/Timcai06/EduCanvas/pulls?q=is%3Apr+author%3Asky-k111"><kbd>开发记录 ↗</kbd></a></p>
+<p><a href="https://github.com/Timcai06/EduCanvas"><kbd>Repository ↗</kbd></a> <a href="https://github.com/Timcai06/EduCanvas/pulls?q=is%3Apr+author%3Asky-k111"><kbd>Development ↗</kbd></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/forge-sight"><img src="./assets/atelier/forgesight.svg?v=startup-20261014" width="100%" alt="ForgeSight 概念动画：Windows 启动命令、经营趋势、证据与报告。"></a>
-<h3><a href="https://github.com/sky-k111/forge-sight">ForgeSight</a> <sub>企业数据智能问析</sub></h3>
-<p>面向制造业业务分析，以自然语言连接业务知识、指标口径、SQL 查询与可追溯证据。</p>
-<p>提供经营看板、智能建模、Agent 报告与 PDF / Excel 导出、异常监测，以及安全执行与多租户隔离。</p>
+<a href="https://github.com/sky-k111/forge-sight"><img src="./assets/atelier/forgesight.svg?v=en-20261015" width="100%" alt="ForgeSight: Windows startup, business trends, evidence and reports."></a>
+<h3><a href="https://github.com/sky-k111/forge-sight">ForgeSight</a> <sub>Business data intelligence</sub></h3>
+<p>Natural-language business analysis for manufacturing, connecting business knowledge, metric definitions, SQL queries and traceable evidence.</p>
+<p>Dashboards, intelligent modeling, agent reports with PDF / Excel export, anomaly monitoring, safe execution and tenant isolation.</p>
+<p><sub>面向制造业的企业数据智能问析，覆盖指标口径、证据追溯、经营看板、智能建模、报告导出与安全隔离。</sub></p>
 <p><code>React</code> <code>FastAPI</code> <code>LangGraph</code></p>
-<p><a href="https://github.com/sky-k111/forge-sight"><kbd>仓库 ↗</kbd></a></p>
+<p><a href="https://github.com/sky-k111/forge-sight"><kbd>Repository ↗</kbd></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/ai-name"><img src="./assets/atelier/naming.svg?v=startup-20261014" width="100%" alt="名笺概念动画：前端启动命令、名字浮现与寓意分析。"></a>
-<h3><a href="https://github.com/sky-k111/ai-name">名笺</a> <sub>AI 智能取名</sub></h3>
-<p>根据偏好生成名字，结合多轮调整、寓意分析和名字比较，帮助用户理解并选择适合的名字。</p>
-<p>覆盖前后端、模型接入、账号与配额、收藏与历史、管理工作区，以及响应式交互和 Docker 部署。</p>
+<a href="https://github.com/sky-k111/ai-name"><img src="./assets/atelier/naming.svg?v=en-20261015" width="100%" alt="Mingjian / 名笺: frontend startup, Chinese name generation and meaning analysis."></a>
+<h3><a href="https://github.com/sky-k111/ai-name">Mingjian · 名笺</a> <sub>AI Chinese naming</sub></h3>
+<p>Generates Chinese names from personal preferences, with conversational refinement, meaning analysis and comparisons to help people choose.</p>
+<p>Model integration, accounts and quotas, favorites, history, an admin workspace, responsive interactions and Docker deployment.</p>
+<p><sub>根据偏好生成名字，通过多轮调整、寓意分析与名字比较辅助选择，并提供账号、配额、收藏、历史与管理工作区。</sub></p>
 <p><code>Vue</code> <code>FastAPI</code> <code>DeepSeek</code></p>
-<p><a href="https://github.com/sky-k111/ai-name"><kbd>仓库 ↗</kbd></a></p>
+<p><a href="https://github.com/sky-k111/ai-name"><kbd>Repository ↗</kbd></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://cyk-personal.xyz"><img src="./assets/atelier/portfolio.svg?v=startup-20261014" width="100%" alt="Portfolio V5 概念动画：开发启动命令、个人品牌与创意视觉。"></a>
-<h3><a href="https://github.com/sky-k111/my-profile-v5">Portfolio V5</a> <sub>个人网站与前端作品集</sub></h3>
-<p>用一个可以浏览和交互的空间，展示个人介绍、项目和联系方式。</p>
-<p>探索 Three.js 视觉、开场序列、GSAP 动效与页面转场，把产品与个人表达融入前端体验。</p>
+<a href="https://cyk-personal.xyz"><img src="./assets/atelier/portfolio.svg?v=en-20261015" width="100%" alt="Portfolio V5: development startup, personal identity and creative visuals."></a>
+<h3><a href="https://github.com/sky-k111/my-profile-v5">Portfolio V5</a> <sub>A space for my work</sub></h3>
+<p>An interactive personal website presenting my background, projects and ways to get in touch.</p>
+<p>Three.js visuals, opening sequences, GSAP animation and page transitions, bringing personal expression into the browsing experience.</p>
+<p><sub>展示个人介绍、作品与联系方式的前端作品集，探索 Three.js 视觉、开场序列、GSAP 动效与页面转场。</sub></p>
 <p><code>React</code> <code>TypeScript</code> <code>Three.js</code> <code>GSAP</code></p>
-<p><a href="https://cyk-personal.xyz"><kbd>cyk-personal.xyz ↗</kbd></a> <a href="https://github.com/sky-k111/my-profile-v5"><kbd>仓库 ↗</kbd></a></p>
+<p><a href="https://cyk-personal.xyz"><kbd>cyk-personal.xyz ↗</kbd></a> <a href="https://github.com/sky-k111/my-profile-v5"><kbd>Repository ↗</kbd></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/homepage"><img src="./assets/atelier/homepage.svg" width="100%" alt="Personal Homepage 概念动画：网页叙事、滚动动效与绘图空间。"></a>
-<h3><a href="https://github.com/sky-k111/homepage">Personal Homepage</a> <sub>网页视觉与交互实践</sub></h3>
-<p>个人主页与绘图页面，围绕介绍、技能、项目和联系信息组织页面叙事。</p>
-<p>探索滚动动效、视觉编排与交互细节，在前端实践中把内容变成可浏览的体验。</p>
+<a href="https://github.com/sky-k111/homepage"><img src="./assets/atelier/homepage.svg?v=en-20261015" width="100%" alt="Personal Homepage: visual storytelling, scrolling and a drawing space."></a>
+<h3><a href="https://github.com/sky-k111/homepage">Personal Homepage</a> <sub>Visual storytelling</sub></h3>
+<p>A personal homepage and drawing space, with a narrative connecting introductions, skills, projects and contact information.</p>
+<p>Scroll animation, visual composition and interaction details that make content an experience to explore.</p>
+<p><sub>个人主页与绘图页面，通过内容叙事、滚动动效和交互细节组织可浏览的前端体验。</sub></p>
 <p><code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>GSAP</code></p>
-<p><a href="https://github.com/sky-k111/homepage"><kbd>仓库 ↗</kbd></a></p>
+<p><a href="https://github.com/sky-k111/homepage"><kbd>Repository ↗</kbd></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/translation"><img src="./assets/atelier/translation.svg" width="100%" alt="Translation 概念动画：网页选词、翻译浮层与词汇学习。"></a>
-<h3><a href="https://github.com/sky-k111/translation">Translation</a> <sub>网页翻译与词汇学习</sub></h3>
-<p>在网页阅读过程中连接划词翻译、生词管理、闪卡、拼写练习与间隔复习。</p>
-<p>关注翻译后的学习体验、浏览器交互和词汇管理，让查询之后的单词继续进入学习过程。</p>
+<a href="https://github.com/sky-k111/translation"><img src="./assets/atelier/translation.svg?v=en-20261015" width="100%" alt="Translation: word selection, translation overlays and vocabulary learning."></a>
+<h3><a href="https://github.com/sky-k111/translation">Translation</a> <sub>Reading to learning</sub></h3>
+<p>Connects word translation with vocabulary management, flashcards, spelling practice and spaced repetition while reading the web.</p>
+<p>A browser experience that carries a word from its first lookup into an ongoing learning routine.</p>
+<p><sub>连接网页划词翻译、生词管理、闪卡、拼写练习与间隔复习，让查询后的词汇继续进入学习过程。</sub></p>
 <p><code>Chrome Extension</code> <code>JavaScript</code> <code>React</code></p>
-<p><a href="https://github.com/sky-k111/translation"><kbd>仓库 ↗</kbd></a></p>
+<p><a href="https://github.com/sky-k111/translation"><kbd>Repository ↗</kbd></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/gh-trending-digest"><img src="./assets/atelier/digest.svg" width="100%" alt="Trending Digest 概念动画：信息整理终端、来源去重与简报预览。"></a>
+<a href="https://github.com/sky-k111/gh-trending-digest"><img src="./assets/atelier/digest.svg?v=en-20261015" width="100%" alt="Trending Digest: collecting sources, deduplicating events and previewing briefs."></a>
 <h3><a href="https://github.com/sky-k111/gh-trending-digest">GitHub Trending Digest</a></h3>
-<p>用 AI 筛选开源项目，整理摘要并通过邮件推送。<b>项目正在升级中</b>，向个人早晚信息简报演进。</p>
-<p>官方公告与 GitHub 来源、事件去重和 PDF / Word 预览已实现；偏好记忆、中文编辑与差异化早晚简报属于后续升级方向。</p>
+<p>Uses AI to select open-source projects, summarize them and send email updates. <b>Currently being upgraded</b> toward a personal morning and evening briefing.</p>
+<p>Official announcements, GitHub sources, event deduplication and PDF / Word previews are implemented. Preference memory, Chinese editing and distinct morning / evening selections are planned upgrades.</p>
+<p><sub><b>项目正在升级中。</b>已实现信息来源、事件去重与文档预览；偏好记忆、中文编辑及差异化早晚简报仍是升级方向。</sub></p>
 <p><code>Python</code> <code>GitHub Actions</code> <code>LLM</code></p>
-<p><a href="https://github.com/sky-k111/gh-trending-digest"><kbd>仓库 ↗</kbd></a></p>
+<p><a href="https://github.com/sky-k111/gh-trending-digest"><kbd>Repository ↗</kbd></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/sky-k111/adaptive-skill-router"><img src="./assets/atelier/adaptive.svg?v=codex-terminal-20261014" width="100%" alt="Adaptive Workflow 概念动画：Codex 终端模拟对话中提示使用 Adaptive Workflow skill。"></a>
+<a href="https://github.com/sky-k111/adaptive-skill-router"><img src="./assets/atelier/adaptive.svg?v=en-20261015" width="100%" alt="Adaptive Workflow: a simulated Codex terminal conversation suggesting the Adaptive Workflow skill."></a>
 <h3><a href="https://github.com/sky-k111/adaptive-skill-router">Adaptive Workflow</a></h3>
-<p>探索如何改善 AI Coding 中机械套用流程、长任务重复工作与验证不足的问题。</p>
-<p>依据证据与风险选择方法，保留有效成果，按需检查文件状态、发现能力并做场景评估。<b>仍在探索与评估中</b>。</p>
+<p>Explores mechanically applied AI coding workflows, repeated work in long tasks and gaps in verification.</p>
+<p>Selects methods using evidence and risk, preserves useful progress, and supports optional file-state checks, skill discovery and scenario evaluation. <b>Still being explored and evaluated.</b></p>
+<p><sub>探索依据证据与风险选择方法，保留有效成果，并按需检查文件状态、发现能力和验证结果；仍在持续探索与评估。</sub></p>
 <p><code>Skills</code> <code>AI Coding</code> <code>Evaluation</code></p>
-<p><a href="https://github.com/sky-k111/adaptive-skill-router"><kbd>仓库 ↗</kbd></a></p>
+<p><a href="https://github.com/sky-k111/adaptive-skill-router"><kbd>Repository ↗</kbd></a></p>
 </td>
 </tr>
 </table>
 
-<h2>常用技术 <sub>Toolbox</sub></h2>
+<h2>Toolbox <sub>常用技术</sub></h2>
 
-| 前端与交互 | 后端与数据 | AI 与交付 |
+| Frontend & interaction<br><sub>前端与交互</sub> | Backend & data<br><sub>后端与数据</sub> | AI & delivery<br><sub>AI 与交付</sub> |
 | --- | --- | --- |
 | TypeScript / JavaScript | Python / FastAPI / Node.js | LLM APIs / Agent / RAG |
 | React / Vue / Tailwind CSS | PostgreSQL / MySQL / SQLite | Skills / MCP / LangGraph |
 | Three.js / GSAP / Electron | API / Auth / SSE | Docker / GitHub Actions |
-| 前端产品与桌面体验 | 数据、接口与业务功能 | pytest / Vitest / Playwright |
+| Web & desktop experiences | Data, APIs & business logic | pytest / Vitest / Playwright |
 
 <details>
-<summary><b>开源参与 · OpenAI Codex</b></summary>
+<summary><b>Open source · 开源参与 · OpenAI Codex</b></summary>
 
-在 [Issue #41657](https://github.com/openai/codex/issues/41657) 中反馈 Windows 历史记录不可见的问题：扫描 15 个源记录文件，发现两处重复序号案例，源记录仍然完整。分享了诊断证据，以及写入、序号管理、投影重建与回归验证方面的改进建议，供其他人参考；评论中也有 Windows / macOS 用户提供类似故障证据。
+In [Issue #41657](https://github.com/openai/codex/issues/41657), I reported missing conversation history on Windows. A scan of 15 source record files found two duplicate-ordinal cases while the underlying records remained intact. I shared diagnostic evidence and proposals covering writes, ordinal management, projection rebuilding and regression checks. Other Windows and macOS users also supplied evidence of similar failures in the comments.
+
+<p><sub>反馈 Windows 历史记录不可见的问题，扫描 15 个源记录文件并发现两处重复序号案例，确认源记录仍然完整。分享诊断证据及写入、序号管理、投影重建与回归验证建议，供其他人参考；评论中也有 Windows / macOS 用户提供类似故障证据。</sub></p>
 
 </details>
 
-<h2>一起做点有用的东西 <sub>Let's build</sub></h2>
+<h2>Let's build something useful <sub>一起做点有用的东西</sub></h2>
 
-欢迎带着 **AI 应用、网站与业务系统、桌面助手、浏览器扩展或自动化工具** 的开发需求来聊，也可以讨论已有项目的功能完善与部署。
+Have a project in mind? Get in touch about **AI applications, websites, business systems, desktop assistants, browser extensions or automation tools**, including improvements and deployment for existing projects.
+
+<p><sub>欢迎带着 AI 应用、网站与业务系统、桌面助手、浏览器扩展或自动化工具的开发需求来聊，也可以讨论已有项目的完善与部署。</sub></p>
 
 <p>
-  <a href="mailto:1503794397@qq.com"><img src="./assets/workbench/contact-mail.svg" height="36" alt="开发合作：1503794397@qq.com"></a>
-  <a href="https://cyk-personal.xyz"><img src="./assets/workbench/contact-web.svg" height="36" alt="访问我的个人网站"></a>
-  <a href="https://x.com/ykchenxxx"><img src="./assets/workbench/contact-x.svg" height="36" alt="在 X 找到 Ethan"></a>
+  <a href="mailto:1503794397@qq.com"><img src="./assets/workbench/contact-mail.svg" height="36" alt="Development inquiries · 开发合作：1503794397@qq.com"></a>
+  <a href="https://cyk-personal.xyz"><img src="./assets/workbench/contact-web.svg" height="36" alt="Visit my website · 个人网站"></a>
+  <a href="https://x.com/ykchenxxx"><img src="./assets/workbench/contact-x.svg" height="36" alt="Find Ethan on X · X 主页"></a>
 </p>
 
 **[1503794397@qq.com](mailto:1503794397@qq.com)** · [cyk-personal.xyz](https://cyk-personal.xyz) · [X @ykchenxxx](https://x.com/ykchenxxx)
 
-来信可以简单介绍：你想解决的问题、期望的功能，以及大致时间安排。一个还没整理完整的想法，也可以作为讨论的起点。
+Tell me what you want to solve, the features you have in mind and a rough timeline. An early idea is a good starting point, too.
+
+<p><sub>来信可以简单介绍想解决的问题、期望功能和大致时间安排；一个还没整理完整的想法，也可以作为讨论的起点。</sub></p>
