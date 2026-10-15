@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/workbench/title-dark.svg">
-    <img src="./assets/workbench/title-light.svg" width="760" alt="Ethan Chen / 陈奕恺 — AI applications, full-stack products, creative coding.">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/workbench/title-dark.svg?v=motion-20261015">
+    <img src="./assets/workbench/title-light.svg?v=motion-20261015" width="760" alt="Ethan Chen / 陈奕恺 — AI applications, full-stack products, creative coding.">
   </picture>
 </p>
 
@@ -112,14 +112,9 @@ My work includes **Mingjian (名笺)**, **GitHub Trending Digest**, **EduCanvas*
 </tr>
 </table>
 
-<h2>Toolbox <sub>常用技术</sub></h2>
+<h2>Tech stack <sub>常用技术栈</sub></h2>
 
-| Frontend & interaction<br><sub>前端与交互</sub> | Backend & data<br><sub>后端与数据</sub> | AI & delivery<br><sub>AI 与交付</sub> |
-| --- | --- | --- |
-| TypeScript / JavaScript | Python / FastAPI / Node.js | LLM APIs / Agent / RAG |
-| React / Vue / Tailwind CSS | PostgreSQL / MySQL / SQLite | Skills / MCP / LangGraph |
-| Three.js / GSAP / Electron | API / Auth / SSE | Docker / GitHub Actions |
-| Web & desktop experiences | Data, APIs & business logic | pytest / Vitest / Playwright |
+<p><img src="./assets/workbench/tech-stack.svg?v=icons-20261015" width="100%" alt="Frontend: TypeScript, JavaScript, React, Vue, Tailwind CSS, Three.js, GSAP, Electron. Backend: Python, FastAPI, Node.js, PostgreSQL, MySQL, SQLite. AI and delivery: LangGraph, Docker, Git, GitHub Actions, pytest, Vitest. Also LLM APIs, Agent, RAG, Skills, MCP and Playwright. / 常用前端、后端、AI 与工程交付技术。"></p>
 
 <details>
 <summary><b>Open source · 开源参与 · OpenAI Codex</b></summary>
